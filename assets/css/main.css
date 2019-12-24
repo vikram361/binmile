@@ -226,3 +226,33 @@ footer {
 .bottom-nav li {
   padding-right: 2em;
 }
+
+#article-title {
+  text-align: center;
+  margin: 1.5em 0 1em 0;
+}
+
+.article-image {
+  width: 100%;
+}
+
+.article-author, .article-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+}
+
+.article-author i {
+  background-color: #eee;
+  color: #999;
+  padding: 0.8em 1em;
+  border-radius: 50%;
+  font-size: 0.7em;
+}
+
+.article-info {
+  margin: 1em 0;
+  color: #717171;
+  font-style: italic;
+}
