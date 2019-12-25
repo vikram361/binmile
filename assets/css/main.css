@@ -76,6 +76,7 @@ main .navbar-nav {
 .card {
   padding: 0;
   border-radius: 0.7em;
+  transition-duration: 0.5s;
 }
 
 .row>.card {
@@ -141,6 +142,7 @@ main .navbar-nav {
   color: #F18E43;
   border: 4px double #F18E43;
   border-radius: 40px;
+  transition-duration: 0.5s;
 }
 
 .get-in-touch {
@@ -255,4 +257,10 @@ footer {
   margin: 1em 0;
   color: #717171;
   font-style: italic;
+}
+
+.card:hover {
+  transform: scale(1.005);
+  z-index: 1000;
+  box-shadow: 3px 3px 16px#555;
 }
