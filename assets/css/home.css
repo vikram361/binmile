@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.top-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #4763BC;
+  border-radius: 0px 0px 25px 25px;
+  opacity: 1;
+  padding: 2em;
+  padding-top: 5em;
+  font-family: "Open Sans";
+  letter-spacing: 0.4px;
+  height: 9em;
+  left: 6em;
+  width: 18em;
+  z-index: 2
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  padding-right: 4em;
+  z-index: 2;
+}
+
+.nav ul {
+  margin-top: 1em;
+}
+
+.nav li {
+  padding: 1em;
+  color: white;
+}
+
+.get-started, .get-in-touch, .estimate-btn {
+  height: 3em;
+  width: 14em;
+  background-color: white;
+  color: #F18E43;
+  border: 4px double #F18E43;
+  border-radius: 40px;
+  transition-duration: 0.5s;
+  margin: 1em auto;
+  background: transparent linear-gradient(285deg, #FDDB71 0%, #F0883F 66%, #EE7A37 100%) 0% 0% no-repeat padding-box;
+  color: white;
+}
+
+.static {
+  position: static;
+}
+
+.cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.owl-slide-title, .owl-slide-subtitle {
+  color: white;
+  margin: 1em 0;
+}
+
+.get-started {
+  margin-top: 4em;
+}
+
+.owl-carousel .owl-slide {
+  position: relative;
+  height: 100vh;
+  top: 0;
+}
+
+.owl-nav:first-of-type, .owl-dots:first-of-type {
+  width: 5em;
+  margin: 0 auto;
+  position: relative;
+  top: -8em;
+  background-color: #FFFFFF;
+}
+
+.line {
+  width: 10%;
+  height: 0.3em;
+  background-color: #052458;
+  margin: 0 auto;
+}
+
+.owl-two {
+  margin: 5em 0;
+}
+
+.owl-two .test-card {
+  box-shadow: 3px 6px 20px #00000029;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  padding: 2em;
+  margin: 2em auto;
+  color: #656565;
+}
+
+.test-card h5 {
+  font-weight: bold;
+  margin: 1em auto;
+}
+
+.test-card p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.test-card:not(.center) {
+  opacity: 0.5;
+}
+
+.test-card img {
+  border-right: 1px solid grey;
+  display: inline;
+}
+
+.test-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.test-author {
+  font-weight: bold;
+}
+
+.services-card {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.services-card img {
+  margin: 2em;
+  height: 50%;
+}
+
+.services-card h4 {
+  font-weight: bold;
+  margin: 1em auto;
+}
+
+.services-card p {
+  font-size: small;
+}
+
+.services-card:nth-of-type(2) {
+  box-shadow: 3px 6px 20px #487AB033;
+  border: 1px solid #EAEAEA;
+  border-radius: 12px;
+  padding: 1.2em;
+}
+
+.main-footer {
+  background-color: #6DBFFC;
+  background-image: url("file:///F:/WORK/Binmile%20blog/assets/images/World-Map-Free-PNG-Image.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+footer>section {
+  background-color: #6DBFFC;
+}
+
+.top-footer>.container {
+  border-bottom: 1px solid #062772;
+}
+
+footer {
+  padding-top: 1em;
+  position: relative;
+  bottom: 0px;
+  background-color: #6DBFFC;
+  margin-top: 1em
+}
+
+.footer-col {
+  padding: 0;
+}
+
+.footer-col ul {
+  list-style-type: none;
+  margin-top: 1em;
+}
+
+.footer-col li {
+  margin-bottom: 1.5em;
+}
+
+.bottom-footer {
+  background: #062772 0% 0% no-repeat padding-box;
+  border-radius: 20px 20px 0px 0px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.bottom-footer .container {
+  margin-top: 1em;
+}
+
+.bottom-footer nav {
+  padding: 1em 0;
+}
+
+.bottom-nav {
+  padding: 0;
+  width: 100%
+}
+
+.bottom-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-nav li {
+  padding-right: 2em;
+}
+
+.top-footer {
+  shape-outside: polygon(10.88% -16px, 88.49% -16px, 100% 100%, 4px 100%);
+  clip-path: polygon(10.88% -16px, 88.49% -16px, 100% 100%, 4px 100%);
+}
+
+footer .container {
+  margin-top: 0;
+}
+
+.bottom-footer>.container {
+  margin-top: 0;
+}
