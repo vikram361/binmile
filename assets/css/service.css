@@ -40,9 +40,11 @@
   padding: 1em 1.4em;
   height: 6em;
   left: 6em;
-  width: 18em;
+  width: fit-content;
 }
-
+.top-logo img {
+  width: 15em;
+}
 .top-logo h3 {
   font-weight: 600;
 }
