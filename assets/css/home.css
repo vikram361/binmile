@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 
 header {
@@ -20,8 +20,8 @@ header {
   justify-content: center;
   align-items: center;
   position: absolute;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 6px #4763BC;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #4763bc;
   border-radius: 0px 0px 25px 25px;
   opacity: 1;
   padding: 2em;
@@ -31,7 +31,7 @@ header {
   height: 9em;
   left: 6em;
   width: 18em;
-  z-index: 2
+  z-index: 2;
 }
 
 .nav {
@@ -52,17 +52,23 @@ header {
   padding: 1em;
   color: white;
 }
-
-.get-started, .get-in-touch, .estimate-btn {
+#navbarSupportedContent1 {
+  justify-content: flex-end;
+}
+.get-started,
+.get-in-touch,
+.estimate-btn {
   height: 3em;
   width: 14em;
   background-color: white;
-  color: #F18E43;
-  border: 4px double #F18E43;
+  color: #f18e43;
+  border: 4px double #f18e43;
   border-radius: 40px;
   transition-duration: 0.5s;
   margin: 1em auto;
-  background: transparent linear-gradient(285deg, #FDDB71 0%, #F0883F 66%, #EE7A37 100%) 0% 0% no-repeat padding-box;
+  background: transparent
+    linear-gradient(285deg, #fddb71 0%, #f0883f 66%, #ee7a37 100%) 0% 0%
+    no-repeat padding-box;
   color: white;
 }
 
@@ -76,7 +82,8 @@ header {
   background-repeat: no-repeat;
 }
 
-.owl-slide-title, .owl-slide-subtitle {
+.owl-slide-title,
+.owl-slide-subtitle {
   color: white;
   margin: 1em 0;
 }
@@ -91,15 +98,16 @@ header {
   top: 0;
 }
 
-.owl-nav:first-of-type, .owl-dots:first-of-type {
+.owl-nav:first-of-type,
+.owl-dots:first-of-type {
   width: 5em;
   margin: 0 auto;
   position: relative;
   top: -8em;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-.line {
+.big-line {
   width: 10%;
   height: 0.3em;
   background-color: #052458;
@@ -112,13 +120,15 @@ header {
 
 .owl-two .test-card {
   box-shadow: 3px 6px 20px #00000029;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #eaeaea;
   border-radius: 8px;
   padding: 2em;
   margin: 2em auto;
   color: #656565;
 }
-
+.card-container {
+  margin: 3em auto;
+}
 .test-card h5 {
   font-weight: bold;
   margin: 1em auto;
@@ -141,16 +151,20 @@ header {
 .test-details {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .test-author {
+  display: flex;
+  align-items: center;
   font-weight: bold;
+  margin-left: 1em;
 }
 
 .services-card {
   text-align: center;
   margin-top: 2em;
+  transition-duration: 0.4s;
+  height: max-content;
 }
 
 .services-card img {
@@ -165,37 +179,251 @@ header {
 
 .services-card p {
   font-size: small;
+  padding: 1em;
 }
 
-.services-card:nth-of-type(2) {
-  box-shadow: 3px 6px 20px #487AB033;
-  border: 1px solid #EAEAEA;
+.services-card:hover {
+  box-shadow: 3px 6px 20px #487ab033;
   border-radius: 12px;
-  padding: 1.2em;
+}
+.work-slider {
+  margin: 3em auto;
+}
+
+.work-card {
+  width: 22vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent
+    linear-gradient(
+      180deg,
+      #73cbfd 0%,
+      #70c5fc 20%,
+      #67b7fc 44%,
+      #5a9efb 71%,
+      #467cfb 99%,
+      #467bfb 100%
+    )
+    0% 0% no-repeat padding-box;
+  box-shadow: 3px 6px 20px #00000029;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.client-name,
+.client-company,
+.work-card {
+  text-transform: uppercase;
+}
+.client-name,
+.client-company {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.client-company {
+  color: #ee7a37;
+}
+#nav-prev,
+#nav-next {
+  width: 3em;
+  height: 3em;
+  border-radius: 90%;
+  box-shadow: 0px 1.5px 3px #1f3fa2e6;
+  border: 1px solid #1f3fa233;
+  background-color: white;
+  text-align: center;
+  margin: 1.5em;
+}
+
+.owl-nav img {
+  position: relative;
+  top: 10%;
+  left: -5%;
+  height: 1.2em;
+  width: 1.2em;
+  margin: 0 auto;
 }
 
 .main-footer {
-  background-color: #6DBFFC;
-  background-image: url("file:///F:/WORK/Binmile%20blog/assets/images/World-Map-Free-PNG-Image.png");
+  background-color: #6dbffc;
+  background-image: url("file:///C:/xampp/htdocs/binmile/assets/images/World-Map-Free-PNG-Image.png");
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
 
-footer>section {
-  background-color: #6DBFFC;
+.bottom-footer > .container {
+  margin-top: 0;
+}
+.navbar-toggler {
+  color: #072a98;
+  background: rgba(255, 255, 255, 0.7);
+  width: 2.5em;
+  height: 2em;
+  position: relative;
+  bottom: 0.5em;
+  left: 1em;
 }
 
-.top-footer>.container {
+.arrow-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 4em;
+  flex-wrap: wrap;
+}
+
+.main-footer .row > div:nth-child(2) {
+  margin-left: 4em;
+}
+.hero-slider-image {
+  display: flex;
+  position: absolute;
+  top: 15%;
+  right: 12%;
+}
+#hero-slide-image-1 {
+  width: 30vw;
+  height: 35vw;
+}
+#hero-slide-image-2 {
+  width: 33vw;
+  height: 33vw;
+  position: relative;
+  top: 5%;
+  animation: float 3s infinite ease;
+}
+#hero-slide-image-3 {
+  width: 40vw;
+  position: relative;
+  right: -15%;
+}
+#floating-image-2 {
+  width: 12vw;
+  height: 25vw;
+  position: relative;
+  left: 70%;
+  top: 5%;
+  z-index: 100;
+  animation: 3s float infinite ease;
+}
+#hero-slide-image-4 {
+  width: 35vw;
+  position: relative;
+  top: 5%;
+  animation: 3s float infinite ease;
+}
+.hero-slider-image > .image-float {
+  position: absolute;
+  height: 20vw;
+  width: 24vh !important;
+  right: 30%;
+  top: 5%;
+  animation: float 3s infinite ease;
+}
+.image-float-2 {
+  position: absolute;
+  top: 5%;
+  animation: float 3s infinite ease;
+}
+@keyframes float {
+  50% {
+    top: 3%;
+  }
+  100% {
+    top: 5%;
+  }
+}
+#navbarSupportedContent {
+  justify-content: flex-end;
+}
+@media (max-width: 1000px) {
+  .main-footer .row > div:nth-child(2) {
+    margin-left: 0;
+  }
+  #navbarSupportedContent {
+    background: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    z-index: 900;
+  }
+  #navbarSupportedContent li {
+    border-bottom: 1px solid grey;
+    color: #292929;
+  }
+  .navbar-toggler {
+    z-index: 999;
+  }
+  .top-logo {
+    /* position: relative; */
+    border-radius: 0px 0px 10px 10px;
+    height: 10vh;
+    width: 50vw;
+    padding: 1em;
+    left: 10%;
+    top: 0;
+  }
+  .hero-text {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 100%;
+  }
+  .arrow-section {
+    text-align: center;
+  }
+  .work-card {
+    width: 70vw;
+  }
+  .main-footer .container > div {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .bottom-footer {
+    text-align: center;
+  }
+  .main-footer {
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: #6dbffc;
+  background-image: url("file:///C:/xampp/htdocs/binmile/assets/images/World-Map-Free-PNG-Image.png");
+}
+
+.card:nth-child(2) {
+  box-shadow: 3px 6px 20px #487ab033;
+}
+
+.top-footer > .container {
   border-bottom: 1px solid #062772;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.main-footer {
+  color: #062772;
+}
+
+.line {
+  width: 50%;
+  height: 0.3em;
+  background-color: #052458;
+  border-radius: 2em;
 }
 
 footer {
   padding-top: 1em;
-  position: relative;
-  bottom: 0px;
-  background-color: #6DBFFC;
-  margin-top: 1em
 }
 
 .footer-col {
@@ -228,7 +456,7 @@ footer {
 
 .bottom-nav {
   padding: 0;
-  width: 100%
+  width: 100%;
 }
 
 .bottom-nav ul {
@@ -240,16 +468,21 @@ footer {
 .bottom-nav li {
   padding-right: 2em;
 }
-
-.top-footer {
-  shape-outside: polygon(10.88% -16px, 88.49% -16px, 100% 100%, 4px 100%);
-  clip-path: polygon(10.88% -16px, 88.49% -16px, 100% 100%, 4px 100%);
-}
-
-footer .container {
-  margin-top: 0;
-}
-
-.bottom-footer>.container {
-  margin-top: 0;
+@media (max-width: 450px) {
+  .owl-slide-text {
+    position: absolute;
+    bottom: 0;
+  }
+  .hero-slider-image {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .image-float {
+    margin: 0 auto;
+  }
+  .line {
+    margin: 0 auto;
+  }
 }
