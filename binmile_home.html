@@ -331,7 +331,7 @@
             <li>Feedback</li>
             <li>Privacy</li>
             <li>Terms</li>
-            <li style="margin-left:auto !important;">&copy; Binmile 2019 All Rights Reserved</li>
+            <li>&copy; Binmile 2019 All Rights Reserved</li>
           </ul>
         </nav>
       </div>
@@ -365,7 +365,7 @@
     nav: true,
     navText: ["<div class='nav-btn prev-slide'>Prev</div>", "<div class='nav-btn next-slide'>Next</div>"],
     loop: true,
-    margin: 10,
+    margin: 20,
     responsive: {
       0: {
         items: 1
@@ -389,14 +389,17 @@
         items: 1
       },
       600: {
-        items: 2
+        items: 1,
+        margin: 20
       },
       1000: {
         items: 3
       }
     }
   });
-
+  $('#nav-prev').click(function () {
+    $(".owl-three").trigger('next.owl.carousel');
+  })
 </script>
 
 </html>
