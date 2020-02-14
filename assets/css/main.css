@@ -137,6 +137,15 @@ main .navbar-nav {
   transition-duration: 0.5s;
 }
 
+.article-link:link,
+.article-link:visited{
+  text-decoration: none;
+}
+
+.article-link:hover{
+  color: #fff;
+}
+
 .read-more:hover {
   background-color: #3d6df0;
   color: white;
