@@ -65,7 +65,7 @@ main .navbar {
   margin-bottom: 1em;
 }
 
-main .navbar-nav {
+main .navbar-nav, .scrollmenu {
   display: flex;
   width: 100%;
   align-items: center;
@@ -73,6 +73,9 @@ main .navbar-nav {
   padding-bottom: 1em;
   border-bottom: 2px solid #ddd;
   font-weight: 600;
+}
+.scrollmenu{
+  border-bottom: none;
 }
 
 .top-search {
@@ -138,11 +141,11 @@ main .navbar-nav {
 }
 
 .article-link:link,
-.article-link:visited{
+.article-link:visited {
   text-decoration: none;
 }
 
-.article-link:hover{
+.article-link:hover {
   color: #fff;
 }
 
@@ -251,6 +254,10 @@ footer {
   align-items: center;
 }
 
+.footer__nav{
+  display: flex;
+  width: 60%;
+}
 .bottom-nav li {
   padding-right: 2em;
 }
@@ -299,7 +306,7 @@ footer {
     height: 5em;
   }
 }
-@media only screen and (max-width: 450px) {
+/* @media only screen and (max-width: 450px) {
   .nav {
     padding-right: 1em;
     height: 3vh !important;
@@ -340,4 +347,207 @@ footer {
   .top-search {
     margin: 0;
   }
+} */
+
+@media (min-width: 1281px) {   
+
+  }
+/*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {  
+
+  }
+/*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {  
+    .nav{
+      height: 7vh;
+    }
+    .navbar-nav{
+      flex-direction: row;
+      height: 7rem;
+
+
+      position: relative;
+      align-items: flex-end !important;
+      justify-content: space-around !important;
+    }
+    .top-search{
+      position: absolute;
+      top: 0rem;
+      width: 100%;
+      right: 0rem;
+      margin: 0;
+    }
+    .card{
+      min-width: 40%;
+      margin-left: 0 !important;
+
+    }
+    .card-resp{
+      margin-top: 2rem;
+    }
+
+   
+    .footer__logo{
+     width: 14rem;
+    }
+    .footer__info-content{
+      flex: 100%;
+      max-width: 100%;
+    }
+
+    .footer__nav{
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+    }
+    .footer__link{
+
+      margin-left: 1rem !important;
+      font-size: .7rem;
+    }
+
+  }
+/*   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {  
+
+  }
+/*   ##Device = Low Resolution Tablets, Mobiles (Landscape)  ##Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {  
+  .nav{
+    height: 7vh;
+  }
+  .navbar-nav{
+    flex-direction: row;
+    height: 7rem;
+
+
+    position: relative;
+    align-items: flex-end !important;
+    justify-content: space-around !important;
+  }
+  .top-search{
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    right: 0rem;
+    margin: 0;
+  }
+  .card {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2rem;
+  }
+  .get-in-touch{
+    display: block;
+    align-self: center;
+  }
+
+  
+  
+  .footer__nav{
+    display: flex;
+    width: 120%;
+    justify-content: space-around;
+  }
+  .footer__link{
+    width: 40%;
+    margin-left: 1rem !important;
+  }
+  .bold{
+    font-size: 1.3rem;
+  }
+  .bottom-footer{
+    font-size: 1rem;
+  }
+}
+/*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {  
+  .nav{
+    height: 5vh;
+  }
+  .navbar-nav{
+    flex-direction: row;
+    height: 7rem;
+    font-size: 1rem;
+
+
+    position: relative;
+    align-items: flex-end !important;
+    justify-content: space-around !important;
+  }
+  .top-search{
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    right: 0rem;
+    margin: 0;
+  }
+  .card {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2rem;
+  }
+  .get-in-touch{
+    display: block;
+    align-self: center;
+  }
+
+  .footer__logo{
+    width: 16rem;
+   }
+
+  
+  
+  .footer__nav{
+    display: flex;
+    width: 120%;
+    justify-content: space-around;
+  }
+  .footer__link{
+    width: 40%;
+    margin-left: 1rem !important;
+    font-size: .7rem;
+  }
+  .bold{
+    font-size: .7rem;
+  }
+  .bottom-footer{
+    font-size: 1rem;
+  }
+  .bottom-nav{
+    height: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .copyright{
+    font-size: .7rem;
+    grid-column: 1 / -1;
+    align-self: center !important;
+    margin: 0 !important;
+    
+  }
+  .scrollmenu {
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+  }
+
+  .top-logo{
+    width: 10rem;
+    height: 3.5rem;
+  }
+  .top__logo-heading{
+    font-size: 1rem;
+  }
+  .nav{
+    font-size: .7rem;
+  }
+
+  .article-row{
+    padding: 1rem;
+  }
+
 }
