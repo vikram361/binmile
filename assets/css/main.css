@@ -290,7 +290,12 @@ footer {
     height: 5em;
   }
 }
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
+  .nav {
+    padding-right: 1em;
+    height: 3vh !important;
+  }
+
   .card {
     margin: 1em;
   }
@@ -317,12 +322,11 @@ footer {
   .top-logo h3 {
     font-size: 25px;
   }
-  .nav {
-    padding-right: 1em;
-  }
+
   .navbar-nav {
+    display: flex;
     flex-wrap: nowrap;
-    flex-basis: 100%;
+    flex-basis: auto;
   }
   .top-search {
     margin: 0;

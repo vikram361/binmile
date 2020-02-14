@@ -57,6 +57,16 @@ header {
   padding: 1em;
   color: white;
 }
+
+.nav-link:link,
+.nav-link:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-link:hover{
+  transform: translateY(-3px);
+}
 #navbarSupportedContent1 {
   justify-content: flex-end;
 }
