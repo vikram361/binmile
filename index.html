@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Binmile Home</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css' />
   <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
@@ -16,7 +15,7 @@
 <body>
   <header>
     <span class="top-logo">
-      <img src="./assets/images/binmile_logo.png">
+      <img src="./assets/images/binmile_logo.png" class="header__logo">
     </span>
     <div class="nav navbar navbar-expand-lg">
       <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
@@ -140,7 +139,7 @@
 
   <!-- hero slider ends -->
 
-  <h2 style="font-weight: bold;text-align:center;">A service experience <br>people love to talk about</h2>
+  <h2 style="font-weight: bold;text-align:center;" class="testimonial__heading">A service experience <br>people love to talk about</h2>
   <div class="big-line"></div>
   <!-- Testimonial Slider -->
 
@@ -165,7 +164,7 @@
   </div>
   <!-- Testimonial Slider ends -->
 
-  <h2 style="font-weight: bold;text-align:center;">Fast and Reliable Software<br>Solutions for your Business</h2>
+  <h2 style="font-weight: bold;text-align:center;" class="testimonial__heading">Fast and Reliable Software<br>Solutions for your Business</h2>
   <div class="big-line"></div>
 
   <div class="container">
@@ -255,9 +254,9 @@
     </section>
     <section class="main-footer">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <img style="height: 6em" src="assets/images/binmile logo.png">
+        <div class="row footer__info">
+          <div class="col-md-4 footer__info-content">
+            <img style="height: 6em" src="assets/images/binmile logo.png" class="footer__img">
             <p style="letter-spacing: 0.16px; font-size: 0.8em;">
               Do you need an elite team of technologist and idea-makers? Is quality important to you? Is scalability
               and endless custom ization paramount? Do you need a brand that is built specifically for your company
@@ -275,7 +274,8 @@
               <br>Mail us: <span class="bold">business@binmile.com</span>
             </p>
           </div>
-          <div class="col-md footer-col">
+          <div class="footer__nav">
+          <div class="col-md footer-col footer__link">
             <ul>
               <li>
                 <h4 class="bold">Company Info</h4>
@@ -291,7 +291,7 @@
             </ul>
           </div>
 
-          <div class="col-md footer-col">
+          <div class="col-md footer-col footer__link">
             <ul>
               <li>
                 <h4 class="bold">Specialities</h4>
@@ -306,7 +306,7 @@
               <li>Resources</li>
             </ul>
           </div>
-          <div class="col-md footer-col">
+          <div class="col-md footer-col footer__link">
             <ul>
               <li>
                 <h4 class="bold">Technologies</h4>
@@ -321,6 +321,7 @@
               <li>Resources</li>
             </ul>
           </div>
+        </div>
 
         </div>
       </div>
@@ -332,7 +333,7 @@
             <li>Feedback</li>
             <li>Privacy</li>
             <li>Terms</li>
-            <li>&copy; Binmile 2019 All Rights Reserved</li>
+            <li class="copyright">&copy; Binmile 2019 All Rights Reserved</li>
           </ul>
         </nav>
       </div>
@@ -346,6 +347,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <script>
   $('.owl-one').owlCarousel({
+    center: true,
+    items: 1,
     margin: 10,
     nav: true,
     responsive: {
