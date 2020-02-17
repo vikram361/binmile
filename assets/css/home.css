@@ -855,4 +855,9 @@ footer {
   .test-image{
     width: 10rem !important;
   }
+
+  .dropdown .dropbtn{
+    color: black;
+    transform: translateX(10rem);
+  }
 }
