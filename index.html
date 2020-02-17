@@ -24,10 +24,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="service.html" class="nav-link">Services</a></li>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">Services 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="service.html">Service Now</a>
+                <a href="service.html">Microsoft 365</a>
+                <a href="service.html">Power BI</a>
+              </div>
+            </div> 
+          </li>
           <li><a href="#" class="nav-link">About Us</a></li>
           <li><a href="blog.html" class="nav-link">Blog</a></li>
-          <li><a href="#" class="nav-link">Contact Us</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
           
         </ul>
       </div>
@@ -145,7 +156,7 @@
 
   <div class="owl-carousel owl-two owl-theme owl-loaded">
     <div class="owl-stage-outer">
-      <div class="owl-stage">
+      <div class="owl-stage test">
         <div class="owl-item test-card col-xs-12">
           <i class="fas fa-quote-left fa-2x" style="color: #072A98;"></i>
           <h5>Highly responsive for any service issues</h5>
@@ -189,7 +200,7 @@
   </div>
 
   <section class="arrow-section">
-    <img src="./assets/images/arrow-image.png" class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+    <img src="./assets/images/arrow-image.png" class="col-md-6 col-lg-6 col-sm-12 col-xs-12 arrow-image">
     <aside class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
       <h4 style="font-weight: bold; margin: 1.5em auto">Join the 1000+ businesses using Binmile</h4>
       <p>
@@ -350,7 +361,7 @@
     center: true,
     items: 1,
     margin: 10,
-    nav: true,
+    autoPlay: 3000,
     responsive: {
       0: {
         items: 1
@@ -367,7 +378,6 @@
     center: true,
     items: 2,
     nav: true,
-    navText: ["<div class='nav-btn prev-slide'>Prev</div>", "<div class='nav-btn next-slide'>Next</div>"],
     loop: true,
     margin: 20,
     responsive: {
@@ -401,9 +411,9 @@
       }
     }
   });
-  $('#nav-prev').click(function () {
-    $(".owl-three").trigger('next.owl.carousel');
-  })
+  // $('#nav-prev').onClick(function () {
+  //   $(".owl-three").trigger('next.owl.carousel');
+  // })
 </script>
 
 </html>

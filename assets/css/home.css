@@ -16,23 +16,23 @@ header {
 }
 
 .top-logo {
-  position: relative;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 6px #4763bc;
   border-radius: 0px 0px 25px 25px;
-  padding-top: 2%;
   left: 8%;
   top: 0px;
   height: fit-content;
-  z-index: 2;
+  z-index: 10;
+  max-width: 20vw;
 }
 
 .top-logo img {
   min-height: 10vh;
-  width: 60%;
+  width: 50%;
 }
 .owl-prev,
 .owl-next {
@@ -86,7 +86,53 @@ header {
     no-repeat padding-box;
   color: white;
 }
+.dropdown {
+  float: left;
+}
 
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 0;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover{
+  transform: translateY(-3px);
+}
 .static {
   position: static;
 }
@@ -262,7 +308,7 @@ header {
 
 .main-footer {
   background-color: #6dbffc;
-  background-image: url("file:///C:/xampp/htdocs/binmile/assets/images/World-Map-Free-PNG-Image.png");
+  background-image: url(//assets/images/World-Map-Free-PNG-Image.png);
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -424,7 +470,11 @@ header {
 
 footer {
   background-color: #6dbffc;
-  background-image: url("file:///C:/xampp/htdocs/binmile/assets/images/World-Map-Free-PNG-Image.png");
+  background-image: url(//assets/images/World-Map-Free-PNG-Image.png);
+  /* -webkit-clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+  border-radius: 10px; */
+
 }
 
 .card:nth-child(2) {
@@ -518,6 +568,9 @@ footer {
 
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
 @media (min-width: 1025px) and (max-width: 1280px) {
+  .work-card{
+    max-height: 15vh !important;
+  }
 }
 /*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -562,10 +615,41 @@ footer {
     width: 7rem;
     height: 7rem;
   }
+
+  .image-float{
+    max-width: 7vh !important;
+  }
+
+  .work-card{
+    margin: 0 auto;
+  }
+
+  .owl-carousel .owl-slide{
+    height: 70vh;
+  }
+  
+  .arrow-image{
+    max-height: 20%;
+  }
+
+  .top-logo img{
+    min-height: 5vh ;
+  }
+
+  .test{
+    width: 5000px !important;
+  }
+  
 }
 /*   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .test{
+    width: 3000px !important;
+  }
+
 }
+
+
 /*   ##Device = Low Resolution Tablets, Mobiles (Landscape)  ##Screen = B/w 481px to 767px*/
 @media (min-width: 481px) and (max-width: 767px) {
   .footer__img {
@@ -636,7 +720,7 @@ footer {
     margin: 0 auto;
   }
   .owl-stage{
-    width: 3000px !important;
+    width: 5000px !important;
     margin: 0 auto;
     margin-right: 0 !important;
   }
@@ -706,9 +790,9 @@ footer {
     transform: translate(-50%, -50%);
   }
   .image-float{
-    max-width: 10vw !important;
+    max-width: 20vw !important;
     height: 20vh !important;
-    right: 30% !important;
+    right: 10% !important;
   }
   #hero-slide-image-3{
     right: 20%;
@@ -733,11 +817,11 @@ footer {
     top: 30%
   }
   .top-logo{
-    width: 40rem;
-    height: 5rem;
+    max-width: 40rem;
+    height: 3rem;
   }
   .header__logo{
-    width: 10rem !important;
+    max-width: 10rem !important;
     min-height: 3rem !important;
 
   }
