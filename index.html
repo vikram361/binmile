@@ -7,6 +7,7 @@
   <title>Binmile Home</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css' />
   <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./assets/css/owl.carousel.css" />
   <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
   <script src="https://kit.fontawesome.com/16370dbf02.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="assets/css/home.css">
@@ -154,7 +155,7 @@
   <div class="big-line"></div>
   <!-- Testimonial Slider -->
 
-  <div class="owl-carousel owl-two owl-theme owl-loaded">
+  <div class="owl-two owl-carousel owl-theme owl-loaded">
     <div class="owl-stage-outer">
       <div class="owl-stage test">
         <div class="owl-item test-card col-xs-12">
@@ -169,9 +170,36 @@
             <img src="assets/images/microsoft-logo.png" class="test-image" style="width: 14em">
             <p class="test-author">Satya Nadela<br>Chief Operating Officer</p>
           </div>
+        </div><div class="owl-item test-card col-xs-12">
+          <i class="fas fa-quote-left fa-2x" style="color: #072A98;"></i>
+          <h5>Highly responsive for any service issues</h5>
+          <p>Binmile helped us focus on our core business without worrying about service issues. Being a small team,
+            this has been extremely beneficial for us to run efficiently. Binmile integration was a breeze and team
+            has always been very
+            responsive while dealing with any kind of service issues.</p>
+
+          <div class="test-details">
+            <img src="assets/images/microsoft-logo.png" class="test-image" style="width: 14em">
+            <p class="test-author">Satya Nadela<br>Chief Operating Officer</p>
+          </div>
         </div>
+        <div class="owl-item test-card col-xs-12">
+          <i class="fas fa-quote-left fa-2x" style="color: #072A98;"></i>
+          <h5>Highly responsive for any service issues</h5>
+          <p>Binmile helped us focus on our core business without worrying about service issues. Being a small team,
+            this has been extremely beneficial for us to run efficiently. Binmile integration was a breeze and team
+            has always been very
+            responsive while dealing with any kind of service issues.</p>
+
+          <div class="test-details">
+            <img src="assets/images/microsoft-logo.png" class="test-image" style="width: 14em">
+            <p class="test-author">Satya Nadela<br>Chief Operating Officer</p>
+          </div>
+        </div>
+
       </div>
     </div>
+    
   </div>
   <!-- Testimonial Slider ends -->
 
@@ -223,6 +251,20 @@
     <div class="owl-three owl-theme owl-carousel owl-loaded owl-theme">
       <div class="owl-stage-outer">
         <div class="owl-stage">
+          <div class="owl-item">
+            <div class="work-card">
+              PTTEP
+            </div>
+            <p class="client-name">Employee Dashboard Portal</p>
+            <p class="client-company">PTTEP . WEB</p>
+          </div>
+          <div class="owl-item">
+            <div class="work-card">
+              PTTEP
+            </div>
+            <p class="client-name">Employee Dashboard Portal</p>
+            <p class="client-company">PTTEP . WEB</p>
+          </div>
           <div class="owl-item">
             <div class="work-card">
               PTTEP
@@ -354,14 +396,23 @@
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/owl.carousel.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<!-- <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script> -->
 <script>
   $('.owl-one').owlCarousel({
     center: true,
     items: 1,
     margin: 10,
-    autoPlay: 3000,
+    loop: true,
+    autoplay: true,
+    autoPlaySpeed: 5000,
+    autoPlayTimeout: 5000,
+    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1
@@ -373,13 +424,20 @@
         items: 1
       }
     }
-  })
+  });
+
   $('.owl-two').owlCarousel({
     center: true,
-    items: 2,
-    nav: true,
+    items: 1,
+    margin: 10,
     loop: true,
-    margin: 20,
+    slideSpeed: 800,
+    autoplay: true,
+    autoPlaySpeed: 5000,
+    autoPlayTimeout: 5000,
+    autoplayHoverPause: true,
+
+    
     responsive: {
       0: {
         items: 1
@@ -391,12 +449,17 @@
         items: 2
       }
     }
+    
   });
   $('.owl-three').owlCarousel({
     center: true,
     items: 3,
     nav: true,
     loop: true,
+    autoplay: true,
+    autoPlaySpeed: 8000,
+    autoPlayTimeout: 5000,
+    autoplayHoverPause: true,
     margin: 10,
     responsive: {
       0: {
