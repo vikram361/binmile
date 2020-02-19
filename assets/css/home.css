@@ -728,7 +728,7 @@ footer {
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
 @media (min-width: 320px) and (max-width: 480px) {
   .footer__img {
-    max-width: 13rem !important;
+    max-width: 17rem !important;
   }
   .footer__info-content {
     flex: 100%;
