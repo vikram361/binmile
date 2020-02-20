@@ -352,7 +352,6 @@ header {
   height: 33vw;
   position: relative;
   top: 5%;
-  animation: float 3s infinite ease;
 }
 #hero-slide-image-3 {
   width: 40vw;
@@ -361,9 +360,9 @@ header {
 }
 #floating-image-2 {
   width: 12vw;
-  height: 25vw;
-  position: relative;
-  left: 70%;
+  height: 23vw;
+  position: absolute;
+  right: 15%;
   top: 5%;
   z-index: 100;
   animation: 3s float infinite ease;
@@ -791,10 +790,11 @@ footer {
     right: 10% !important;
   }
   #hero-slide-image-3 {
-    right: 20%;
+    right: 0;
   }
 
   #floating-image-2 {
+    
     margin-top: 4rem;
     margin-right: .5rem;
   }
