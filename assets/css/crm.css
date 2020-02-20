@@ -82,8 +82,8 @@
 }
 
 .crm-card:hover {
-  box-shadow: 0.2rem 0.2rem 2rem rgba(0, 0, 0, 0.2),
-    -0.2rem -0.2rem 2rem rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px .5rem #487ab033,
+    -5px -5px .5rem #487ab033;
   border-radius: 10px;
 }
 
@@ -146,6 +146,7 @@
 
 .form-btn {
   border: none;
+  outline: none;
   background: none;
   padding: 1rem 3rem;
   background-color: #130f40;
@@ -160,10 +161,17 @@
 
 .form-input {
   border: none;
+  outline: none;
   border: 2px solid #130f40;
   padding: 1rem 2rem;
   margin-right: 3rem;
   border-radius: 3px;
+}
+
+.form-input::placeholder{
+    color: black;
+    opacity: 1;
+    font-weight: 600;
 }
 
 @media (min-width: 1281px) {

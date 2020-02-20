@@ -106,7 +106,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgba(0,0,0,.5);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
@@ -114,7 +114,7 @@ header {
 
 .dropdown-content a {
   float: none;
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -122,7 +122,7 @@ header {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -307,8 +307,9 @@ header {
 
 .main-footer {
   background-color: #6dbffc;
-  background-image: url(//assets/images/World-Map-Free-PNG-Image.png);
+  background-image: url(../images/World-Map-Free-PNG-Image.png);
   background-size: 70%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
 }
@@ -794,7 +795,8 @@ footer {
   }
 
   #floating-image-2 {
-    left: 55%;
+    margin-top: 4rem;
+    margin-right: .5rem;
   }
 
   #hero-slide-image-1,
