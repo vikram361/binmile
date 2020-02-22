@@ -332,9 +332,9 @@
   }
   .crm-card {
     border: 0.2px solid #130f40;
-    box-shadow: 5px 5px .5rem rgba(0, 0, 0, 0.2), 
-                -5px -5px .5rem rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
+    box-shadow: 5px 5px .5rem #487ab033,
+    -5px -5px .5rem #487ab033;
+  border-radius: 5px;
   }
 
   .crm-card-para,
