@@ -726,6 +726,7 @@ footer {
 @media (min-width: 320px) and (max-width: 480px) {
   .footer__img {
     max-width: 17rem !important;
+    max-height: 4em;
   }
   .footer__info-content {
     flex: 100%;
