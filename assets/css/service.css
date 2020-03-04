@@ -20,12 +20,9 @@
   top: 2%;
 }
 
-
-.nav-pillar li{
+.nav-pillar li {
   margin: 0 !important;
 }
-
-
 
 .nav li {
   padding: 0.5em;
@@ -51,16 +48,15 @@
   left: 5%;
 }
 
-.hero-right{
+.hero-right {
   width: 40%;
   height: 70vh;
   position: absolute;
   top: 15%;
   right: 1rem;
 }
-.pillar-img{
+.pillar-img {
   height: 100%;
-
 }
 .hero-text {
   font-weight: bold;
@@ -153,25 +149,159 @@
   color: white;
 }
 
-.service{
+.service {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-
-
-.service__img{
+.service__img {
   width: 10rem;
 }
 
-
-.service__img-2{
-
+.service__img-2 {
   margin-left: 1rem;
 }
 
-.service__img-4{
+.service__img-4 {
   margin-left: 1rem;
+}
+
+.phn-view {
+  display: none;
+  visibility: hidden;
+}
+
+.panel-link:link,
+.panel-link:active {
+  color: #24054e;
+  font-weight: 600;
+  text-decoration: none;
+}
+.card {
+  border: none;
+  box-shadow: 3px 6px 20px #00000029;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+.card-header {
+  background: none;
+  border: none;
+}
+
+.icon-down{
+  float: right;
+}
+
+@media (min-width: 1281px) {
+}
+/*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+/*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .arrow-section {
+    display: none;
+    visibility: hidden;
+  }
+  .owl-carousel,
+  .owl-dots,
+  .recent {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .hero-text {
+    font-size: 2rem !important;
+  }
+
+  .desktop-view {
+    display: none;
+    visibility: hidden;
+  }
+  .phn-view {
+    display: block;
+    visibility: visible;
+  }
+}
+/*   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+/*   ##Device = Low Resolution Tablets, Mobiles (Landscape)  ##Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .arrow-section {
+    display: none;
+    visibility: hidden;
+  }
+  .owl-carousel,
+  .owl-dots,
+  .recent {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .hero-text {
+    font-size: 1.5rem !important;
+  }
+  .hero-text h1 {
+    font-size: 2rem !important;
+  }
+
+  .desktop-view {
+    display: none;
+    visibility: hidden;
+  }
+  .phn-view {
+    display: block;
+    visibility: visible;
+  }
+}
+/*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .arrow-section {
+    display: none;
+    visibility: hidden;
+  }
+  .owl-carousel,
+  .owl-dots,
+  .recent {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .hero-left {
+    width: 70%;
+    left: 15% !important;
+  }
+  .hero-text {
+    font-size: 1.5rem !important;
+  }
+  .hero-text h1 {
+    font-size: 2rem !important;
+    width: 100%;
+  }
+
+  .desktop-view {
+    display: none;
+    visibility: hidden;
+  }
+  .phn-view {
+    display: block;
+    visibility: visible;
+    width: 90% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin: 0 auto !important;
+  }
+
+  .article-heading {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    font-weight: 700;
+  }
+  .icon-list li {
+    margin: 4rem;
+  }
 }
