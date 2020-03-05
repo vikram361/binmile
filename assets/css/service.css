@@ -48,6 +48,11 @@
   left: 5%;
 }
 
+  #service-pillar-img{
+    width: 70%;
+    padding-right: unset;
+  }
+
 .hero-right {
   width: 40%;
   height: 70vh;
@@ -215,6 +220,9 @@
   .hero-text {
     font-size: 2rem !important;
   }
+  .service-right{
+    width: 40% !important;
+  }
 
   .desktop-view {
     display: none;
@@ -255,6 +263,9 @@
     display: block;
     visibility: visible;
   }
+  .service-right{
+    width: 40% !important;
+  }
 }
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
 @media (min-width: 320px) and (max-width: 480px) {
@@ -269,9 +280,16 @@
     visibility: hidden !important;
   }
 
+  #service-pillar-img{
+    width: 60%;
+  }
   .hero-left {
     width: 70%;
     left: 15% !important;
+  }
+
+  .service-right{
+    left: 7rem !important;
   }
   .hero-text {
     font-size: 1.5rem !important;

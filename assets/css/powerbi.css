@@ -27,8 +27,8 @@
 }
 
 .content-img{
-    width: 25rem;
-    height: 30rem;
+   width: 80%;
+   height: 80%;
 }
 
 .bi__content-info{
@@ -99,6 +99,7 @@
 
     .bi__content-img{
         margin: 0 auto;
+        width: 100%;
     }
     .bi__content-info{
         width: 90%;
@@ -107,7 +108,7 @@
     }
 
     .content-img{
-        width: 10rem;
+        width: 18rem;
         height: 15rem;
     }
     .bi__secondary-heading{
