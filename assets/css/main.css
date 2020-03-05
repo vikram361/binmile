@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 10vh;
+  height: 10vh !important;
   width: 100%;
   background: transparent
     radial-gradient(
@@ -29,6 +29,9 @@ body {
   color: white;
   padding-right: 4em;
 }
+.article-header{
+  margin-top: 15rem;
+}
 
 .top-logo {
   display: flex;
@@ -42,9 +45,9 @@ body {
   font-family: "Open Sans";
   letter-spacing: 0.4px;
   padding: 1em 1.4em;
-  height: 6em;
+  height: 6em !important;
   left: 6em;
-  width: 18em;
+  max-width: 18em !important;
 }
 
 .logo:link,
@@ -456,6 +459,9 @@ footer {
 
       margin-left: 1rem !important;
       font-size: .7rem;
+    }
+    .heading-title{
+      font-size: 2rem !important;
     }
 
   }
