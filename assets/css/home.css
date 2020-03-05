@@ -305,6 +305,8 @@ header {
   margin: 0 auto;
 }
 
+
+
 .main-footer {
   background-color: #6dbffc;
   background-image: url(../images/World-Map-Free-PNG-Image.png);
@@ -465,12 +467,21 @@ header {
   }
 }
 
+
 footer {
-  background-color: #6dbffc;
-  background-image: url(//assets/images/World-Map-Free-PNG-Image.png);
+  /* background-color: #6dbffc; */
+  background-image:url(../images/hero_images/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: 165%;
+  background-position: top;
+  z-index: 99999;
   /* -webkit-clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
   clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
   border-radius: 10px; */
+}
+
+.top-footer{
+  padding-top: 5rem;
 }
 
 .card:nth-child(2) {
@@ -655,6 +666,10 @@ footer {
 
 /*   ##Device = Low Resolution Tablets, Mobiles (Landscape)  ##Screen = B/w 481px to 767px*/
 @media (min-width: 481px) and (max-width: 767px) {
+
+  footer{
+    background-size: 195%;
+  }
   .footer__img {
     width: 14rem;
   }
@@ -704,7 +719,7 @@ footer {
   }
   .image-float {
     max-width: 20vw !important;
-    height: 20vh !important;
+    height: 30vh !important;
     right: 15% !important;
   }
   #hero-slide-image-3 {
@@ -734,6 +749,18 @@ footer {
 }
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
 @media (min-width: 320px) and (max-width: 480px) {
+
+  footer{
+  background-color: #6dbffc;
+  background-image: none;
+  }
+  .footer-heading{
+    font-size: 1rem;
+  }
+
+  .top-footer{
+    padding-top: 1rem;
+  }
   .footer__img {
     max-width: 17rem !important;
     max-height: 4em;
