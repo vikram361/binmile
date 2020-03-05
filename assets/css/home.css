@@ -628,7 +628,11 @@ footer {
   }
 
   .work-card {
+    max-height: 10rem;
     margin: 0 auto;
+  }
+  .client-name{
+    padding-top: 2rem;
   }
 
   .owl-carousel .owl-slide {
@@ -647,11 +651,11 @@ footer {
     width: 8000px !important;
   }
   #navbarSupportedContent {
-    background: rgba(0,0,0,.8);
+    /* background: rgba(0,0,0,.8); */
     position: absolute;
     top: 0;
     right: 0;
-    width: 50%;
+    /* width: 50%; */
     /* height: 41.5vh; */
     z-index: 900;
     text-align: left;
@@ -662,6 +666,7 @@ footer {
   .test {
     width: 8000px !important;
   }
+  
 }
 
 /*   ##Device = Low Resolution Tablets, Mobiles (Landscape)  ##Screen = B/w 481px to 767px*/
