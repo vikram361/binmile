@@ -58,6 +58,7 @@
 
   width: 100%;
   position: relative;
+  padding-top: 4rem;
 }
 
 .about {
@@ -234,10 +235,7 @@
   align-items: center;
 }
 
-footer{
-  background-image: none;
-  background-color: #6dbffc;
-}
+
 
 @media (min-width: 1281px) {
 }

@@ -1,6 +1,6 @@
 .nav {
   background-color: #052454;
-  height: 10vh;
+  height: 8vh;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  padding: 0rem 0 3rem 1rem;
+  padding: 4rem 0 3rem 1rem;
   align-items: center;
 }
 
@@ -101,10 +101,6 @@ header {
 }
 
 
-footer{
-  background-image: none;
-  background-color: #6dbffc;
-}
 
 
 

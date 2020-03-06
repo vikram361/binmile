@@ -22,41 +22,36 @@
   </head>
 
   <body>
-    <header>
+    <header class="header fixed-top" id="navbar">
       <span class="top-logo">
-        <img src="./assets/images/binmile_logo.png" class="header__logo" />
+        <a href="index.html" >
+          <img src="./assets/images/binmile_logo.png" class="header__logo">
+        </a>
+        
       </span>
-      <div class="nav navbar navbar-expand-lg">
-        <button
-          class="navbar-toggler toggler-example"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent1"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
-        </button>
+      <div class="nav navbar navbar-expand-lg ">
+        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent1" aria-expanded="false"
+          aria-label="Toggle navigation"><span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
             <li><a href="index.html" class="nav-link">Home</a></li>
             <li>
               <div class="dropdown">
-                <button class="dropbtn">
-                  Services
+                <button class="dropbtn">Solutions 
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
                   <a href="service.html">Service Now</a>
                   <a href="microsoftCRM.html">Microsoft 365</a>
-                  <a href="powerBI.html">Power BI</a>
+                  <a href="powerBI.html">Power Platform</a>
                 </div>
-              </div>
+              </div> 
             </li>
             <li><a href="aboutUs.html" class="nav-link">About Us</a></li>
-            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="blog.html" class="nav-link">Insights</a></li>
             <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+            
           </ul>
         </div>
       </div>
@@ -94,7 +89,7 @@
             </p>
             <p style="text-align: left; color: #fff;">
               <span style="color: #000080;"
-                ><a style="color: #000080;" href="mailto:business@binmile.com"
+                ><a style="color: #000080; text-decoration: none;" href="mailto:business@binmile.com"
                   ><i class="fas fa-envelope"></i> business@binmile.com</a
                 ></span
               >
@@ -129,7 +124,8 @@
         <h2 class="heading-2"> Send Us Message</h2>
         <form action="#" class="form">
           <input type="text" placeholder="Full Name" class="input">
-          <input type="email" name="name" id="" placeholder="Enter Email Id" class="input">
+          <input type="email" name="email" id="" placeholder="Enter Email Id" class="input">
+          <input type="number" name="phone" id="" placeholder="Enter Phone" class="input">
           <textarea name="message" rows="10" cols="30" placeholder="Enter Message Here" class="input-msg"></textarea>
           <button class="send-btn">Send</button>
           
@@ -138,131 +134,140 @@
       </div>
     </div>
 
-    <!-- footer starts -->
-    <footer>
-      <!-- <section class="top-footer text-center">
-        <div class="container">
-          <h3 style="font-weight: bold;letter-spacing: 0.4px;color: #062772;">
-            Learn how Binmile can help you transform your business
-          </h3>
-          <div
-            style="text-align:center;margin:2em auto;border-radius: 5em;width: 10em;height:0.5em;background-color:#062772;"
-          ></div>
-          <p style="letter-spacing: 0.24px; color: #062772;">
-            Do you need an elite team of technologist and idea-makers? Is
-            quality important to you? Is scalability and endless customization
-            paramount? Do you need a brand that is built specifically for your
-            company and can be as innovative as you are?
-          </p>
-          <p style="letter-spacing: 0.24px; color: #062772;">
-            Tell us a little about your needs and a Binmile business analyst
-            will get in touch.
-          </p>
-          <button class="estimate-btn" style="margin: 2em auto">
-            Get an estimate
-          </button>
-        </div>
-      </section> -->
-      <section class="main-footer">
-        <div class="container">
-          <div class="row footer__info">
-            <div class="col-md-4 footer__info-content">
-              <img
-                style="height: 6em"
-                src="assets/images/binmile logo.png"
-                class="footer__img"
-              />
-              <p style="letter-spacing: 0.16px; font-size: 0.8em;">
-                Do you need an elite team of technologist and idea-makers? Is
-                quality important to you? Is scalability and endless custom
-                ization paramount? Do you need a brand that is built
-                specifically for your company and can be as innovative as you
-                are?
-              </p>
-              <p style="letter-spacing: 0.16px; font-size: 0.8em;">
-                Tell us a little about your needs and a Binmile business analyst
-                will get in touch.
-              </p>
-              <p>
-                <span style="display: block;" class="bold"
-                  >Binmile Technologies</span
-                >
-                D-42, Sector-59 Noida, UP – 201301, India
-              </p>
-              <p>
-                Office :
-                <span class="bold">+1(415)-915-7177,+91.9811643424</span>
-                <br />Mail us: <span class="bold">business@binmile.com</span>
-              </p>
-            </div>
-            <div class="footer__nav">
-              <div class="col-md footer-col footer__link">
-                <ul>
-                  <li>
-                    <h4 class="bold">Company Info</h4>
-                  </li>
-                  <li>
-                    <div class="line"></div>
-                  </li>
-                  <li>About Us</li>
-                  <li>Blog</li>
-                  <li>Contact Us</li>
-                  <li>Join the Team</li>
-                  <li>Resources</li>
-                </ul>
-              </div>
+ <!-- footer starts -->
+ <footer class="footer">
+  <section class="top-footer text-center">
+    <div class="container">
 
-              <div class="col-md footer-col footer__link">
-                <ul>
-                  <li>
-                    <h4 class="bold">Specialities</h4>
-                  </li>
-                  <li>
-                    <div class="line"></div>
-                  </li>
-                  <li>About Us</li>
-                  <li>Blog</li>
-                  <li>Contact Us</li>
-                  <li>Join the Team</li>
-                  <li>Resources</li>
-                </ul>
-              </div>
-              <div class="col-md footer-col footer__link">
-                <ul>
-                  <li>
-                    <h4 class="bold">Technologies</h4>
-                  </li>
-                  <li>
-                    <div class="line"></div>
-                  </li>
-                  <li>About Us</li>
-                  <li>Blog</li>
-                  <li>Contact Us</li>
-                  <li>Join the Team</li>
-                  <li>Resources</li>
-                </ul>
-              </div>
-            </div>
+      <h3 style="font-weight: bold;letter-spacing: 0.4px;color: #062772;" class="footer-heading">
+        Explore how Binmile can help your business in its digital transformation journey
+      </h3>
+      <div
+        style="text-align:center;margin:2em auto;border-radius: 5em;width: 10em;height:0.5em;background-color:#062772;">
+      </div>
+      <p style="letter-spacing: 0.24px; color: #062772;">
+        Do you need an elite team of technologist and idea-makers? Is quality important to you? Is scalability and
+        endless customization paramount? Do you need a brand that is built specifically for your company and can be
+        as innovative as you are?
+      </p>
+      <p style="letter-spacing: 0.24px; color: #062772;">
+        Contact our Business Analyst and get the journey started.
+      </p>
+      <button class="estimate-btn" style="margin: 2em auto">Get an estimate</button>
+    </div>
+  </section>
+  <section class="main-footer">
+    <div class="container">
+      <div class="row footer__info">
+        <div class="col-md-4 footer__info-content">
+          <img style="height: 6em" src="assets/images/binmile logo.png" class="footer__img">
+          <div class="contact-info">
+            <!-- <h5 class="contact-call">Call</h5>
+          <p class="contact-num">+1(415)-915-7177</p>
+
+            <p class="contact-num">+91.9811643424</p> -->
+            <a href="mailto:business@binmile.com" class="join-us">Join Us</a>
+          </div>
+          
+          <div class="social-icon">
+            <a href="https://www.facebook.com/binmiletechnologies/" class="social-links">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/BMT55914497" class="social-links">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/binmile/?hl=en" class="social-links">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="http://linkedin.com/company/binmile-technologies" class="social-links">
+              <i class="fab fa-linkedin"></i>
+            </a>
           </div>
         </div>
-      </section>
-      <section class="bottom-footer">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg">
-            <ul class="navbar-nav bottom-nav">
-              <li>Feedback</li>
-              <li>Privacy</li>
-              <li>Terms</li>
-              <li class="copyright">&copy; Binmile 2019 All Rights Reserved</li>
+        <div class="footer__nav">
+          <div class="col-md footer-col footer__link">
+            <ul>
+              <li>
+                <h4 class="bold">Solutions</h4>
+              </li>
+              <li>
+                <div class="line"></div>
+              </li>
+              <li><a href="service.html" class="footer-links"> Service Now</a></li>
+              <li><a href="microsoftCRM.html"class="footer-links"> Dynamic 365</a></li>
+              <li><a href="powerBI.html"class="footer-links">Power Platform</a> </li>
+              
             </ul>
-          </nav>
+          </div>
+          <div class="col-md footer-col footer__link">
+            <ul>
+              <li>
+                <h4 class="bold">Services</h4>
+              </li>
+              <li>
+                <div class="line"></div>
+              </li>
+              <li><a href="#adivsory"class="footer-links">Advisory</a></li>
+              <li><a href="#implementation"class="footer-links">Implementations</a></li>
+              <li><a href="#automation"class="footer-links">Automation Testing</a></li>
+              <li><a href="#integration"class="footer-links">integration</a></li>
+              <li><a href="#customization"class="footer-links">customization</a></li>
+            </ul>
+          </div>
+          <div class="col-md footer-col footer__link">
+            <ul>
+              <li>
+                <h4 class="bold">Insight</h4>
+              </li>
+              <li>
+                <div class="line"></div>
+              </li>
+              <li><a href="blog.html"class="footer-links">Blogs</a></li>
+              <li><a href="blog.html"class="footer-links">Case Studies</a></li>
+            </ul>
+          </div>
+          
         </div>
-      </section>
-    </footer>
-    <!-- footer ends -->
+      
+        
+      </div>
+    </div>
+  </section>
+  <section class="bottom-footer">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <ul class="navbar-nav bottom-nav">
+          <li class="copyright">&copy; Binmile Technologies Private Limited All Rights Reserved</li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+</footer>
+<!-- footer ends -->
+
+  <div class="float-contact">
+    <a href="contact.html">
+      <img src="./assets/images/hero_images/support.png" alt="" class="support-img">
+    </a>
+  </div>
   </body>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 700) {
+	    $("#navbar").css("background" , "#062772"),
+      $("#navbar").css("height" , "8vh" );
+	  }
+
+	  else{
+		  $("#navbar").css("background" , "transparent");  	
+	  }
+  })
+});
+</script>
 </html>

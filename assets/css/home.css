@@ -15,6 +15,14 @@ header {
   width: 100%;
 }
 
+#navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+
 /* .header{
   position: fixed;
   top: 0;
@@ -41,9 +49,10 @@ header {
 
 .top-logo img {
   min-height: 10vh;
-  width: 80%;
+  width: 90%;
   padding-top: .5rem;
   padding-bottom: .5rem;
+  padding-left: 2rem;
 }
 .owl-prev,
 .owl-next {
@@ -202,10 +211,18 @@ header {
 .test-card p {
   font-size: 1em;
   margin-bottom: 1em;
+  padding-top: 1rem;
 }
 
 .test-card:not(.center) {
   opacity: 0.5;
+}
+
+.owl-item{
+  min-height: 20rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .test-card img {
@@ -222,7 +239,6 @@ header {
   display: flex;
   align-items: center;
   font-weight: bold;
-  margin-left: 1em;
 }
 
 .services-card {
@@ -261,7 +277,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: transparent
+  /* background: transparent
     linear-gradient(
       180deg,
       #73cbfd 0%,
@@ -272,12 +288,43 @@ header {
       #467bfb 100%
     )
     0% 0% no-repeat padding-box;
+    opacity: .5; */
   box-shadow: 3px 6px 20px #00000029;
   border-radius: 8px;
   color: white;
   font-size: 1.5em;
   margin-bottom: 1em;
 }
+
+
+.work-card-1{
+  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/pic1.png);
+
+  background-size: cover;
+  font-weight: 600;
+
+
+}
+
+.work-card-2{
+  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/pic2.png);
+
+  background-size: cover;
+  font-weight: 600;
+
+
+}
+
+.work-card-3{
+  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/pic3.png);
+
+  background-size: cover;
+  font-weight: 600;
+
+
+}
+
+.w
 
 .client-name,
 .client-company,
@@ -320,9 +367,9 @@ header {
   /* background-color: #6dbffc; */
   background-image: url(../images/World-Map-Free-PNG-Image.png);
   background-size: 70%;
-  background-size: contain;
+  background-size: 50%;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center;
 }
 
 .bottom-footer > .container {
@@ -419,6 +466,82 @@ header {
   flex: 50%;
 }
 
+
+.footer-links:link,
+.footer-links:active{
+  
+  text-decoration: none;
+}
+
+.footer-links{
+  color: #062772;
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.footer-links:hover{
+  color: #062772;
+}
+
+.footer__info-content{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.social-links:link,
+.social-links:active{
+  text-decoration: none;
+}
+
+.social-links{
+  font-size: 2rem;
+  color: #052458;
+  padding-left: .5rem;
+
+}
+.testing{
+  display: flex;
+}
+
+.social-links:hover{
+  color: #052458;
+}
+
+.contact-call{
+  font-size: 1rem;
+}
+
+.contact-info{
+  padding-top: 1rem;
+}
+
+.join-us:link,
+.join-us:active{
+  text-decoration: none;
+}
+
+.join-us{
+  color: white;
+  font-weight: 600;
+  background: #052458;
+  padding: .5rem 7rem;
+  border-radius: 10px;
+}
+
+.join-us:hover{
+  color: white;
+}
+
+.social-icon{
+  padding-top: 1rem;
+}
+
+.contact-num{
+  font-size: .8rem;
+}
+
 @media (max-width: 1000px) {
   .owl-two .test-card {
     width: 90vw !important;
@@ -457,6 +580,7 @@ header {
   }
   .work-card {
     width: 70vw;
+    
   }
   .main-footer .container > div {
     width: fit-content;
@@ -503,6 +627,7 @@ footer {
 
 .bold {
   font-weight: bold;
+  
 }
 
 .main-footer {
@@ -561,6 +686,25 @@ footer {
 
 .bottom-nav li {
   padding-right: 2em;
+}
+
+
+.float-contact{
+  width: 4rem;
+  height: 4rem;
+  background-color: #062772;
+  padding: 1rem;
+  position: fixed;
+  bottom: 4.5rem;
+  right: 3rem;
+  color: white;
+  border-radius: 10px;
+  z-index: 9999999;
+}
+
+
+.support-img{
+  width: 100%;
 }
 
 /* @media (max-width: 450px) {
@@ -801,11 +945,7 @@ footer {
     flex-direction: row;
   }
 
-  .copyright {
-    position: absolute;
-    top: 70%;
-    left: 25%;
-  }
+  
 
   .bottom-nav li {
     flex: 40%;
@@ -870,7 +1010,10 @@ footer {
   }
   .top-logo {
     max-width: 40rem;
-    height: 5rem;
+  }
+
+  .top-logo img{
+    padding-left: 1rem;
   }
   .header__logo {
     max-width: 10rem !important;
@@ -886,7 +1029,7 @@ footer {
   }
 
   .owl-stage {
-    width: 5000px !important;
+    width: 8000px !important;
   }
 
   .owl-two .test-card {
@@ -910,5 +1053,9 @@ footer {
   .nav li{
     padding: 0.5em;
     margin-left: 1rem;
+  }
+
+  .testing{
+    width: 100%;
   }
 }

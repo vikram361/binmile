@@ -67,7 +67,7 @@ body {
 }
 
 main .navbar {
-  padding: 0;
+  padding-top: 4rem;
   margin-bottom: 1em;
 }
 
@@ -238,10 +238,7 @@ main .navbar-nav, .scrollmenu {
   color: white;
 }
 
-footer {
-  background-color: #6dbffc;
-  background-image: url(//assets/images/World-Map-Free-PNG-Image.png);
-}
+
 
 .card:nth-child(2) {
   box-shadow: 3px 6px 20px #487ab033;
@@ -255,9 +252,6 @@ footer {
   font-weight: bold;
 }
 
-.main-footer {
-  color: #062772;
-}
 
 .line {
   width: 50%;
@@ -352,6 +346,37 @@ footer {
   transform: scale(1.005);
   z-index: 1000;
   box-shadow: 3px 3px 16px#555;
+}
+
+.float-contact{
+  width: 4rem;
+  height: 4rem;
+  background-color: #062772;
+  padding: 1rem;
+  position: fixed;
+  bottom: 4.5rem;
+  right: 3rem;
+  color: white;
+  border-radius: 10px;
+  z-index: 9999999;
+
+}
+
+footer {
+  /* background-color: #6dbffc; */
+  background-image:url(../images/hero_images/footer-img.png);
+  background-repeat: no-repeat;
+  background-size: 165%;
+  background-position: top;
+  z-index: 99999;
+  /* -webkit-clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(6% 0, 94% 0, 100% 100%, 0% 100%);
+  border-radius: 10px; */
+}
+
+
+.support-img{
+  width: 100%;
 }
 @media (max-width: 1000px) {
   .top-logo {
