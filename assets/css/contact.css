@@ -251,6 +251,11 @@ header {
   .heading{
     font-size: 1.5rem;
   }
+
+  .location-link{
+    margin: 10rem;
+    font-size: .6rem;
+  }
  
   
 }

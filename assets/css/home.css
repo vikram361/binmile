@@ -108,6 +108,7 @@ header {
 }
 .dropdown {
   float: left;
+  transform: translateY(-1px);
 }
 
 .dropdown .dropbtn {
@@ -344,6 +345,10 @@ header {
   margin: 0 auto;
 }
 
+.client-name{
+  text-align: left;
+}
+
 .client-company {
   color: #ee7a37;
 }
@@ -550,8 +555,7 @@ header {
 }
 
 .integration-img{
-  width: 10rem;
-  height: 10rem;
+  height: 8rem;
   margin: 1rem !important;
 }
 
@@ -563,6 +567,17 @@ header {
 
 .card-container{
   margin: 0 auto;
+}
+
+.card-container-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-card img{
+  height: 8rem;
 }
 
 @media (max-width: 1000px) {
@@ -726,7 +741,7 @@ footer {
 }
 
 
-.support-img{
+.support-image{
   width: 100%;
 }
 
@@ -908,7 +923,8 @@ footer {
   }
 
   #floating-image-2 {
-    left: 55%;
+    left: 35%;
+    transform: translateY(5rem);
   }
 
   #hero-slide-image-1,
@@ -923,7 +939,7 @@ footer {
     margin: 0 auto;
   }
   .owl-stage {
-    width: 8000px !important;
+    width: 10000px !important;
     margin: 0 auto;
     margin-right: 0 !important;
   }
@@ -936,7 +952,7 @@ footer {
   background-image: none;
   }
   .footer-heading{
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .top-footer{
@@ -1081,4 +1097,22 @@ footer {
   .testing{
     width: 100%;
   }
+
+  .float-contact{
+    width: 3rem;
+    height: 3rem;
+    padding: .5rem;
+    right: 2rem;
+    bottom: 2rem;
+  }
+
+  .top__logo{
+    height: 3em !important;
+  }
+
+  .social-icon{
+    width: 60%;
+    margin: 0 auto;
+  }
+  
 }

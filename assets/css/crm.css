@@ -304,9 +304,9 @@
   .crm__support-image{
     width: 100%;
   }
-  .support-img{
+  /* .support-img{
     padding-right: 10rem;
-  }
+  } */
 }
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
 @media (min-width: 320px) and (max-width: 480px) {

@@ -17,7 +17,6 @@
   padding-right: 3em;
   color: white;
   position: absolute;
-  top: 2%;
 }
 
 .nav-pillar li {
@@ -96,6 +95,7 @@
   font-size: 3em;
   color: #24054e;
   margin-bottom: 1em;
+  padding-top: .5rem;
 }
 
 .nav-tabs {
@@ -321,5 +321,9 @@
   }
   .icon-list li {
     margin: 4rem;
+  }
+
+  .hero-h3{
+    font-size: .9rem;
   }
 }

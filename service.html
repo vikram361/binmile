@@ -80,7 +80,7 @@
               </button>
               <div class="dropdown-content">
                 <a href="service.html">ServiceNow</a>
-                <a href="microsoftCRM.html">Microsoft Dynamic 365</a>
+                <a href="microsoftCRM.html">Microsoft Dynamics 365</a>
                 <a href="powerBI.html">Power Platform</a>
               </div>
             </div> 
@@ -96,8 +96,8 @@
   <div class="hero">
     <div class="hero-left">
       <div class="hero-text">
-        <h1>SERVICE NOW</h1>
-        <h3>For all business IT Needs. A step closer towards your digital transformation.</h3>
+        <h1>SERVICENOW</h1>
+        <h3 class="hero-h3">For all business IT Needs. A step closer towards your digital transformation.</h3>
       </div>
       <button class="get-started">Let's Get Started</button>
     </div>
@@ -424,13 +424,13 @@ Our Recent Work
       </aside>
     </section>
 
-    <h2 style="font-weight: bold;text-align:center;" class="recent">Our Recent Work</h2>
+    <h2 style="font-weight: bold;text-align:center;" class="recent">Our Deliverables</h2>
     <div class="big-line"></div>
 
   <!-- Work slider starts -->
-  <div class="container work-slider parent-box">
-    <div class="owl-three owl-theme owl-carousel owl-loaded owl-theme ">
-      <div class="owl-stage-outer">
+  <div class="container work-slider">
+    <div class="owl-three owl-theme owl-carousel owl-loaded owl-theme">
+      <div class="owl-stage-outer ">
         <div class="owl-stage">
           <div class="owl-item">
             
@@ -453,22 +453,13 @@ Our Recent Work
             <p class="client-name">Power BI Implementation and Customizations</p>
             <!-- <p class="client-company">PTTEP . WEB</p> -->
           </div>
-          <div class="owl-item">
-            <div class="work-card work-card-4">
-              PTTEP
-            </div>
-            <p class="client-name">Employee Dashboard</p>
-            <p class="client-name">Portal</p>
-
-           
-          </div>
         </div>
       </div>
-      <!-- <div class="owl-nav">
-        <div class="owl-prev" id="nav-prev"><img src="assets/images/prev.svg"></div>
+      <div class="owl-nav">
+        <!-- <div class="owl-prev" id="nav-prev"><img src="assets/images/prev.svg"></div>
         <div class="owl-next" id="nav-next"><img src="assets/images/prev.svg" style="transform: rotate(180deg);">
-        </div>
-      </div> -->
+        </div> -->
+      </div>
     </div>
   </div>
   <!-- Work slider ends -->
@@ -534,7 +525,7 @@ Our Recent Work
                   <div class="line"></div>
                 </li>
                 <li><a href="service.html" class="footer-links"> ServiceNow</a></li>
-                <li><a href="microsoftCRM.html"class="footer-links"> Dynamic 365</a></li>
+                <li><a href="microsoftCRM.html"class="footer-links"> Dynamics 365</a></li>
                 <li><a href="powerBI.html"class="footer-links">Power Platform</a> </li>
                 
               </ul>
@@ -587,7 +578,7 @@ Our Recent Work
 
   <div class="float-contact">
     <a href="contact.html">
-      <img src="./assets/images/hero_images/support.png" alt="" class="support-img">
+      <img src="./assets/images/hero_images/support.png" alt="" class="support-image">
     </a>
   </div>
 
@@ -627,7 +618,8 @@ Our Recent Work
 	  if (scroll > 700) {
 	    $("#navbar").css("background" , "#062772"),
       $("#navbar").css("height" , "8vh" ),
-      $("#navbar").css("opacity", ".9");
+      $("#navbar").css("opacity", ".9"),
+      $(".dropdown").css("transform", "translateY(-2px)");
 	  }
 
 	  else{
