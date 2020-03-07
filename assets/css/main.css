@@ -561,6 +561,22 @@ footer {
     align-items: flex-end !important;
     justify-content: space-around !important;
   }
+
+  #navbar-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: unset !important;
+    text-align: left;
+  }
+
+  #navbarSupportedContent{
+    height: 41.5vh;
+  }
+
+  .navbar-toggler{
+    top: 0 !important;
+  }
   .top-search{
     position: absolute;
     top: 0rem;

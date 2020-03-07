@@ -302,6 +302,7 @@ header {
   background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/img1.png);
 
   background-size: cover;
+  background-repeat: no-repeat;
   font-weight: 600;
 
 
@@ -311,6 +312,7 @@ header {
   background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/img2.png);
 
   background-size: cover;
+  background-repeat: no-repeat;
   font-weight: 600;
 
 
@@ -320,6 +322,7 @@ header {
   background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/img3.png);
 
   background-size: cover;
+  background-repeat: no-repeat;
   font-weight: 600;
 
 
@@ -1117,6 +1120,15 @@ footer {
 
   .owl-carousel .owl-slide{
     height: 80vh;
+  }
+
+  .integration-img{
+    width: 6rem !important;
+    height: 8rem !important;
+  }
+  .client-name{
+    text-align: center;
+    width: 80%;
   }
   
 }

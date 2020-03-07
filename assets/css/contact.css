@@ -64,7 +64,7 @@ header {
   width: 50%;
   margin-bottom: 1rem;
   background-color: #fff;
-  border: 1px solid #062772;
+  border: 1.5px solid #052454;
   font-family: sans-serif;
   padding: 1rem;
 }
@@ -79,8 +79,13 @@ header {
 
 .input-msg{
   width: 50%;
-  border: 1px solid #062772;
+  border: 1.5px solid #052454;
   padding: 1rem;
+}
+
+.input::placeholder,
+.input-msg::placeholder{
+  color: #052454;
 }
 
 
@@ -114,6 +119,13 @@ header {
   padding-top: 5rem;
  
 }
+
+.location-img{
+  width: 3rem;
+  height: 3rem;
+}
+
+
 
 .animation{
   animation: floating 3s infinite ease;
