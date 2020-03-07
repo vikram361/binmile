@@ -1130,5 +1130,9 @@ footer {
     text-align: center;
     width: 80%;
   }
+
+  .owl-nav .owl-prev, .owl-next{
+    transform: translateY(-3rem) !important;
+  }
   
 }
