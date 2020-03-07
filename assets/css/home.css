@@ -549,6 +549,22 @@ header {
   font-size: .8rem;
 }
 
+.integration-img{
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem !important;
+}
+
+.card-container-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container{
+  margin: 0 auto;
+}
+
 @media (max-width: 1000px) {
   .owl-two .test-card {
     width: 90vw !important;
