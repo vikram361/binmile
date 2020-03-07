@@ -22,6 +22,18 @@ header {
   background-color: transparent;
 }
 
+.contact-link:link,
+.contact-link:active{
+  text-decoration: none;
+}
+
+.contact-link{
+  color: white;
+}
+
+.contact-link:hover{
+  color: white;
+}
 
 /* .header{
   position: fixed;
