@@ -31,7 +31,7 @@ header {
   background-image: url(../images/contactUsBack.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,8 +102,37 @@ header {
 
 
 
+.location-link:link,
+.location-link:active{
+  text-decoration: none;
+}
+
+.location-link{
+  color: #052458;
+  margin: 4rem;
+  font-size: .8rem;
+  padding-top: 5rem;
+ 
+}
+
+.animation{
+  animation: floating 3s infinite ease;
+}
+
+.location-link:hover{
+  color: #052454;
+}
 
 
+@keyframes floating{
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100%{
+    transform: translateY(0);
+  }
+}
 
 
 

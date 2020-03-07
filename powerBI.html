@@ -50,8 +50,8 @@
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                  <a href="service.html">Service Now</a>
-                  <a href="microsoftCRM.html">Microsoft 365</a>
+                  <a href="service.html">ServiceNow</a>
+                  <a href="microsoftCRM.html">Microsoft Dynamic 365</a>
                   <a href="powerBI.html">Power Platform</a>
                 </div>
               </div> 
@@ -67,8 +67,9 @@
     <div class="hero">
       <div class="hero-left">
         <div class="hero-text">
-          <h1>POWER BI</h1>
-          <h2 class="header-text">BESTOW A BUSINESS OF INSIGHT</h2>
+          <h1>POWER PLATFORM</h1>
+          <h2 class="header-text">Make informed and data driven
+            decisions in real time.</h2>
         </div>
         <button class="get-started">Let's Get Started</button>
       </div>
@@ -126,8 +127,8 @@
         </form>
       </div>
 
-  <!-- footer starts -->
-  <footer class="footer">
+   <!-- footer starts -->
+   <footer class="footer">
     <section class="top-footer text-center">
       <div class="container">
 
@@ -185,7 +186,7 @@
                 <li>
                   <div class="line"></div>
                 </li>
-                <li><a href="service.html" class="footer-links"> Service Now</a></li>
+                <li><a href="service.html" class="footer-links"> ServiceNow</a></li>
                 <li><a href="microsoftCRM.html"class="footer-links"> Dynamic 365</a></li>
                 <li><a href="powerBI.html"class="footer-links">Power Platform</a> </li>
                 
@@ -202,8 +203,8 @@
                 <li><a href="index.html"class="footer-links">Advisory</a></li>
                 <li><a href="index.html"class="footer-links">Implementations</a></li>
                 <li><a href="index.html"class="footer-links">Automation Testing</a></li>
-                <li><a href="index.html"class="footer-links">integration</a></li>
-                <li><a href="index.html"class="footer-links">customization</a></li>
+                <li><a href="index.html"class="footer-links">Integration</a></li>
+                <li><a href="index.html"class="footer-links">Customization</a></li>
               </ul>
             </div>
             <div class="col-md footer-col footer__link">
@@ -255,11 +256,13 @@
   	var scroll = $(window).scrollTop();
 	  if (scroll > 700) {
 	    $("#navbar").css("background" , "#062772"),
-      $("#navbar").css("height" , "8vh" );
+      $("#navbar").css("height" , "8vh" ),
+      $("#navbar").css("opacity", ".8");
 	  }
 
 	  else{
-		  $("#navbar").css("background" , "transparent");  	
+      $("#navbar").css("background" , "transparent"),
+      $("#navbar").css("opacity", "1"); 	 	
 	  }
   })
 });

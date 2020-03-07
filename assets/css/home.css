@@ -298,7 +298,7 @@ header {
 
 
 .work-card-1{
-  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/pic1.png);
+  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/img1.png);
 
   background-size: cover;
   font-weight: 600;
@@ -307,7 +307,7 @@ header {
 }
 
 .work-card-2{
-  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/pic2.png);
+  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/img2.png);
 
   background-size: cover;
   font-weight: 600;
@@ -316,7 +316,7 @@ header {
 }
 
 .work-card-3{
-  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/pic3.png);
+  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/img3.png);
 
   background-size: cover;
   font-weight: 600;
@@ -324,7 +324,14 @@ header {
 
 }
 
-.w
+.work-card-4{
+  background: linear-gradient(0deg, #73cafd8f, #71c6ff9c), url(../images/img3.png);
+
+  background-size: cover;
+  font-weight: 600;
+
+
+}
 
 .client-name,
 .client-company,

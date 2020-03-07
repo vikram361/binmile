@@ -184,7 +184,7 @@
 .team-images {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   padding-bottom: 10rem;
@@ -192,9 +192,11 @@
 
 .team__img-1,
 .team__img-2,
-.team__img-3 {
-  width: 5rem;
-  height: 5rem;
+.team__img-3,
+.team__img-4,
+.team__img-5 {
+  width: 8rem;
+  height: 8rem;
   border-radius: 100px;
 
   background-size: cover;
@@ -203,15 +205,21 @@
 }
 
 .team__img-1 {
-  background-image: url(../images/team2.jpg);
+  background-image: url(../images/team/AvanishSir.jpg);
 }
 
 .team__img-2 {
-  background-image: url(../images/team1.jpg);
+  background-image: url(../images/team/Padmaja.jpg);
 }
 
 .team__img-3 {
-  background-image: url(../images/team3.jpg);
+  background-image: url(../images/team/Rahul.jpg);
+}
+.team__img-4 {
+  background-image: url(../images/team/Yash.jpg);
+}
+.team__img-5 {
+  background-image: url(../images/team/Nazish.jpg);
 }
 
 .team-description {
@@ -224,15 +232,20 @@
 .team-position {
   color: #052454;
   font-weight: 600;
+  width: 90%;
+  text-align: center;
 }
 
 .team-image-1,
 .team-image-2,
-.team-image-3 {
+.team-image-3,
+.team-image-4,
+.team-image-5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 60%;
 }
 
 
