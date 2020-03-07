@@ -1114,5 +1114,9 @@ footer {
     width: 60%;
     margin: 0 auto;
   }
+
+  .owl-carousel .owl-slide{
+    height: 80vh;
+  }
   
 }

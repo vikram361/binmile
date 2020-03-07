@@ -212,7 +212,7 @@ header {
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
 @media (min-width: 320px) and (max-width: 480px) {
   .contact {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .contact__info {
     flex: 100%;
@@ -226,7 +226,7 @@ header {
     min-width: 100%;
   }
   .nav {
-    height: 7vh;
+    height: 8vh;
   }
   .heading-5{
     font-size: .8rem;
@@ -256,6 +256,11 @@ header {
     margin: 10rem;
     font-size: .6rem;
   }
- 
+ .contact__info{
+   text-align: center;
+ }
+ .contact-information p{
+   text-align: center !important;
+ }
   
 }
