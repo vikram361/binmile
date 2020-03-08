@@ -225,6 +225,7 @@ header {
 @media (min-width: 320px) and (max-width: 480px) {
   .contact {
     flex-direction: column-reverse;
+    padding: 4rem 0 2rem 0;
   }
   .contact__info {
     flex: 100%;
@@ -236,6 +237,7 @@ header {
   .contact__form {
     flex: 100%;
     min-width: 100%;
+    background-size: 200%;
   }
   .nav {
     height: 8vh;

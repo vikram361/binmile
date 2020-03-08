@@ -33,6 +33,10 @@ body {
   margin-top: 15rem;
 }
 
+.nav-1{
+  background: #052454 !important;
+}
+
 .top-logo {
   display: flex;
   justify-content: center;
@@ -574,6 +578,8 @@ footer {
     height: 41.5vh;
   }
 
+  
+
   .navbar-toggler{
     top: 0 !important;
   }
@@ -629,6 +635,11 @@ footer {
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
   }
+
+  .bottom-navbar{
+    height: 1rem !important;
+  }
+
   .copyright{
     font-size: .8rem;
     grid-column: 1 / -1;

@@ -854,7 +854,7 @@ footer {
   }
 
   .test {
-    width: 8000px !important;
+    width: 10000px !important;
   }
   #navbarSupportedContent {
     /* background: rgba(0,0,0,.8); */
@@ -870,7 +870,7 @@ footer {
 /*   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .test {
-    width: 8000px !important;
+    width: 10000px !important;
   }
   
 }
@@ -963,11 +963,13 @@ footer {
 @media (min-width: 320px) and (max-width: 480px) {
 
   footer{
-  background-color: #6dbffc;
-  background-image: none;
+  /* background-color: #6dbffc; */
+  background-image: url(../images/hero_images/phn-footer-img.png);
+  background-size: 190%;
   }
   .footer-heading{
     font-size: 1.1rem;
+    padding-top: 1.5rem;
   }
 
   .top-footer{

@@ -370,6 +370,7 @@
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     grid-template-rows: repeat(3, 12rem);
     grid-auto-rows: 12rem;
+    gap: 2rem;
   }
   .crm-card-heading {
     font-size: 1.3rem;
@@ -410,8 +411,17 @@
   }
   .crm__support-image{
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
   }
   .support-img{
-    padding-right: 5rem;
+    width: 35rem;
+  }
+
+  .consultant-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

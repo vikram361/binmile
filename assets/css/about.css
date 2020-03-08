@@ -34,7 +34,25 @@
   animation: icon-float 4s infinite ease;
 }
 
-@keyframes icon-float{
+.logo-float-5 {
+  width: 4rem;
+  height: 3rem;
+  position: absolute;
+  top: 6rem;
+  right: 30rem;
+  animation: icon-float 3s infinite ease;
+}
+
+.logo-float-6 {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 17rem;
+  right: 18rem;
+  animation: icon-float 2s infinite ease;
+}
+
+@keyframes icon-float {
   50% {
     transform: translateY(-10px);
   }
@@ -42,8 +60,6 @@
     transform: translateY(0);
   }
 }
-
-
 
 .know-more-btn {
   height: 3em;
@@ -263,14 +279,11 @@
   width: 60%;
 }
 
-
-
 @media (min-width: 1281px) {
 }
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
 @media (min-width: 1025px) and (max-width: 1280px) {
-
-  .logo-float-1{
+  .logo-float-1 {
     top: 10rem;
     right: 34rem;
   }
@@ -337,6 +350,7 @@
 
   .know-more-btn {
     width: 10rem;
+    margin-left: 5rem;
   }
   .about__show {
     flex-direction: column;
@@ -362,13 +376,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .team-image-1,
   .team-image-2,
   .team-image-3,
-  .team-image-4{
+  .team-image-4 {
     margin-bottom: 2rem;
   }
 
@@ -399,24 +412,34 @@
   p {
     margin-bottom: 0 !important;
   }
-  .logo-float-1{
-      top: 10rem;
-      left: 3rem;
-      
+  .logo-float-1 {
+    top: 10rem;
+    left: 3rem;
   }
-  .logo-float-2{
-      top: 8rem;
-      left: 8rem;
-     
+  .logo-float-2 {
+    top: 8rem;
+    left: 8rem;
   }
-  .logo-float-3{
-      top: 9rem;
-     right: 3rem;
-    
+  .logo-float-3 {
+    top: 9rem;
+    right: 3rem;
   }
-  .logo-float-4{
-      top: 12rem;
-      right: 10rem;
-     
+  .logo-float-4 {
+    top: 12rem;
+    right: 10rem;
+  }
+
+  .logo-float-5 {
+    top: 6rem;
+    right: 8rem;
+  }
+
+  .logo-float-6 {
+    top: 12rem;
+    right: 2rem;
+  }
+
+  .about__section{
+    background-size: 250%;
   }
 }
