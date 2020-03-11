@@ -1153,4 +1153,7 @@ footer {
     min-height: 10rem !important;
   }
   
+  .main-footer{
+    background-size: 120%;
+  }
 }
