@@ -200,6 +200,10 @@
   float: right;
 }
 
+.for-height{
+  min-height: 25rem !important;
+}
+
 @media (min-width: 1281px) {
 }
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
