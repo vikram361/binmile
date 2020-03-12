@@ -204,6 +204,18 @@
   min-height: 25rem !important;
 }
 
+.for-center{
+  display: flex;
+
+  align-items: center;
+  position: relative;
+}
+
+.small-margin{
+  position: absolute;
+  right: 0rem;
+}
+
 @media (min-width: 1281px) {
 }
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
@@ -225,7 +237,8 @@
     font-size: 2rem !important;
   }
   .service-right{
-    width: 40% !important;
+    right: 10% !important;
+    width: 60% !important;
   }
 
   .desktop-view {

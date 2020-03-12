@@ -61,6 +61,7 @@
   grid-auto-rows: 18rem;
   gap: 1rem;
   padding: 4rem 0;
+ 
 }
 
 .crm-card {
@@ -69,6 +70,13 @@
   align-items: center;
   justify-content: center;
   transition: all .8s;
+
+  /* display: grid;
+  grid-template-rows: min-content 1fr;
+  row-gap: 1.5rem;
+  justify-items: center; */
+
+  
 }
 
 .crm-card-heading {
@@ -76,7 +84,7 @@
   font-weight: 600;
   color: #130f40;
   text-align: center;
-  width: 60%;
+  width: 100%;
 }
 
 .crm-card-para {
@@ -356,9 +364,8 @@
     font-size: 1.5rem;
   }
   .crm-card {
-    border: 0.2px solid #130f40;
-    box-shadow: 5px 5px .5rem #487ab033,
-    -5px -5px .5rem #487ab033;
+    /* border: 0.2px solid #130f40; */
+    box-shadow: 0 0 .5rem #487ab033;
   border-radius: 5px;
   }
 

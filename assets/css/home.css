@@ -760,6 +760,27 @@ footer {
   width: 100%;
 }
 
+
+/* .float-polygon{
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 82rem;
+  left: -10rem;
+  z-index: -999;
+}
+
+.float-polygon-2{
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 138rem;
+  left: 90%;
+  z-index: -999;
+} */
+
+
+
 /* @media (max-width: 450px) {
   .owl-slide-text {
     position: absolute;
