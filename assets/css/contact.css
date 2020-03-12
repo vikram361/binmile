@@ -237,7 +237,7 @@ header {
   .contact__form {
     flex: 100%;
     min-width: 100%;
-    background-size: 200%;
+    background-size: 210%;
     background-position: bottom;
   }
   .nav {
