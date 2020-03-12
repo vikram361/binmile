@@ -761,6 +761,8 @@ footer {
 }
 
 
+
+
 /* .float-polygon{
   width: 20vw;
   height: auto;
@@ -1187,6 +1189,10 @@ footer {
     width: 45vw !important;
     height: unset;
     transform: translateX(2rem);
+  }
+
+  .arrow-section{
+    margin: 1rem;
   }
 
 }
