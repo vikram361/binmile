@@ -453,7 +453,7 @@ header {
   animation: 3s float infinite ease;
 }
 #hero-slide-image-4 {
-  width: 35vw;
+  width: 25vw;
   position: relative;
   top: 5%;
   animation: 3s float infinite ease;
@@ -958,6 +958,10 @@ footer {
     margin: 0 auto;
     margin-right: 0 !important;
   }
+
+  #hero-slide-image-4{
+    width: 35vw;
+  }
 }
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1157,4 +1161,12 @@ footer {
   .main-footer{
     background-size: 120%;
   }
+
+  #hero-slide-image-4{
+    width: 45vw !important;
+    height: unset;
+    transform: translateX(2rem);
+  }
+
 }
+
