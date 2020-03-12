@@ -238,6 +238,7 @@ header {
     flex: 100%;
     min-width: 100%;
     background-size: 200%;
+    background-position: bottom;
   }
   .nav {
     height: 8vh;
