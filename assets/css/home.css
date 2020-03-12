@@ -1090,6 +1090,7 @@ footer {
 
   .owl-two .test-card {
     margin: 1.7rem !important;
+    min-height: 25rem !important;
   }
 
   .owl-slide-title {

@@ -30,8 +30,8 @@ header {
   
   background-image: url(../images/contactUsBack.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
+  background-size: 120%;
+  background-position: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
