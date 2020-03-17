@@ -381,12 +381,13 @@
   }
   .crm-cards {
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-    grid-template-rows: repeat(3, 12rem);
-    grid-auto-rows: 12rem;
+    grid-template-rows: repeat(3, 13rem);
+    grid-auto-rows: 13rem;
     gap: 2rem;
   }
   .crm-card-heading {
     font-size: 1.3rem;
+    padding-top: 1.5rem;
   }
   .crm-card-para {
     font-size: 0.8rem;
