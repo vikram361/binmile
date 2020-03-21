@@ -286,6 +286,133 @@
   width: 50%;
 }
 
+
+.team-section{
+  background: #130f40;
+  width: 90%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.team-section-col{
+  flex-basis: 25%;
+  text-align: center;
+  color: #fff;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.team-section-col img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.team-section-col p{
+  margin: 1rem 0;
+}
+
+.team-linkedin{
+  font-size: 1.5rem;
+  color: white;
+  transition: transform .5s;
+}
+
+
+.team-linkedin:hover{
+  color: white;
+}
+
+.team-linkedin .fab:hover{
+  
+  transform: translateY(-5px);
+}
+
+.team-section-col:hover img{
+  transform: scale(1.1);
+}
+
+.team-section-col span{
+  width: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 15px solid #130f40;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.team-section-col .arrow{
+  border-left: 15px solid #130f40;
+  border-right: 15px solid transparent;
+  right: unset;
+  left: 0;
+}
+
+@media screen and (max-width: 770px){
+  .team-section{
+    width: 95%;
+  }
+  .team-section-col{
+    flex-basis: 50%;
+    font-size: .8rem;
+  }
+
+
+  .team-section .team-section-col:nth-child(1){
+    order: 1;
+  }
+  .team-section .team-section-col:nth-child(2){
+    order: 2;
+  }
+  .team-section .team-section-col:nth-child(3){
+    order: 5;
+  }
+  .team-section .team-section-col:nth-child(4){
+    order: 6;
+  }
+  .team-section .team-section-col:nth-child(5){
+    order: 3;
+  }
+  .team-section .team-section-col:nth-child(6){
+    order: 4;
+  }
+  .team-section .team-section-col:nth-child(7){
+    order: 7;
+  }
+  .team-section .team-section-col:nth-child(8){
+    order: 8;
+  }
+  .team-section .team-section-col:nth-child(9){
+    order: 9;
+  }
+  .team-section .team-section-col:nth-child(10){
+    order: 10;
+  }
+  .team-section .team-section-col:nth-child(11){
+    order: 12;
+  }
+  .team-section .team-section-col:nth-child(12){
+    order: 11;
+  }
+
+  .team-section-col .arrow-2{
+    border-left: 15px solid #130f40;
+    border-right: 15px solid transparent;
+    right: unset;
+    left: 0;
+  }
+
+  
+
+}
+
 @media (min-width: 1281px) {
 }
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
@@ -448,5 +575,9 @@
 
   .about__section{
     background-size: 250%;
+  }
+
+  .team-section-col h3{
+    font-size: 1.2rem;
   }
 }
