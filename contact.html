@@ -83,27 +83,37 @@
       <div class="contact__info">
         <div class="et_pb_column et_pb_column_1_3  et_pb_column_0 ">
           <div
-            class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_0">
+            class="et_pb_text et_pb_module et_pb_bg_layout_light et_pb_text_align_left  et_pb_text_0"
+          >
             <h2 class="heading">
               <strong><span>Get in touch</span></strong>
             </h2>
           </div>
           <!-- .et_pb_text -->
-          <div
-            class=" contact-information">
+          <div class=" contact-information">
             <p style="text-align: left;" class="para">
               <span style="color: #000080;"
-                >Our Experts will provide an one hour free consultancy</span
+                >Avail an hour of complimentary consultancy</span
               >
             </p>
             <p style="text-align: left; color: #fff;">
               <span style="color: #000080;"
                 ><a
                   style="color: #000080; text-decoration: none;"
-                  href="mailto:business@binmile.com" 
+                  href="mailto:business@binmile.com"
                   ><i class="fas fa-envelope"></i> business@binmile.com</a
                 ></span
               >
+            </p>
+            <p style="text-align: left; color: #fff;">
+              <span style="color: #000080;">
+                <a
+                  style="color: #000080; text-decoration: none;"
+                  href="tel:+1415-915-7177"
+                >
+                  <i class="fas fa-phone-alt"></i> +44 7700 374241</a
+                >
+              </span>
             </p>
             <p style="text-align: left; color: #fff;">
               <span style="color: #000080;">
@@ -121,20 +131,27 @@
                   style="color: #000080; text-decoration: none;"
                   href="tel:+91-9811643424"
                 >
-                  <i class="fas fa-phone-alt"></i> +91.9811643424</a
+                  <i class="fas fa-phone-alt"></i> +91 9811643424</a
                 >
               </span>
             </p>
             <p style="text-align: left;">
+              <span style="color: #000080; font-size: 1.3rem; font-weight: 600;"
+                >USA &nbsp; </span
+              ><br />
               <span style="color: #000080;"
-                ><i class="fas fa-map-marker-alt"></i> Binmile Technologies,
-                D-42, Sector-59 &nbsp;
+                ><i class="fas fa-map-marker-alt"></i> 16192 Coastal Highway,
+                Lewes, Delaware 19958, Country of Sussex &nbsp;
               </span>
             </p>
             <p style="text-align: left;">
+              <span style="color: #000080; font-size: 1.3rem; font-weight: 600;"
+                >INDIA &nbsp; </span
+              ><br />
               <span style="color: #000080;"
-                >&nbsp; &nbsp; Noida, UP – 201301, India</span
-              >
+                ><i class="fas fa-map-marker-alt"></i>&nbsp; D-42, Sector-59
+                Ground and First Floor Noida, UP – 201301, India &nbsp;
+              </span>
             </p>
 
             <div class="social-icon">
@@ -163,10 +180,15 @@
 
             <a
               class="location-link"
-              href="https://www.google.com/maps/place/Binmile+Technologies+Private+Limited/@28.609447,77.3702322,15z/data=!4m5!3m4!1s0x0:0xbf80be3af5e72fc7!8m2!3d28.609447!4d77.3702322"
-              target="_blank"
+              href="#google_map"
+              target="_self"
+              onclick="myFunction()"
             >
-              <img src="./assets/images/about/Maps_Pin_FullColor-x1000.png" alt="" class="location-img animation">
+              <img
+                src="./assets/images/about/Maps_Pin_FullColor-x1000.png"
+                alt=""
+                class="location-img animation"
+              />
             </a>
           </div>
           <!-- .et_pb_text -->
@@ -174,7 +196,6 @@
       </div>
 
       <div class="contact__form">
-    
         <form action="#" class="form">
           <input type="text" placeholder="Full Name" class="input" />
           <input
@@ -209,6 +230,35 @@
         </form>
       </div>
     </div>
+
+ 
+      <div class="google-map" id="google_map">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.9433647698606!2d-75.21377164901416!3d38.765002979491165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b8b90d99b44b9b%3A0xfba6eb4b8adf94b8!2s16192%20Coastal%20Hwy%2C%20Lewes%2C%20DE%2019958%2C%20USA!5e0!3m2!1sen!2sin!4v1584774912156!5m2!1sen!2sin"
+        width="800"
+        height="450"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+        class="binmile-usa-map"
+      ></iframe>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14010.710428216085!2d77.3702322!3d28.609447!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbf80be3af5e72fc7!2sBinmile%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1584774531759!5m2!1sen!2sin"
+        width="800"
+        height="450"
+        frameborder="0"
+        style="border:0;"
+        allowfullscreen=""
+        aria-hidden="false"
+        tabindex="0"
+        class="binmile-india-map"
+      ></iframe>
+      
+      </div>
+      
+
 
     <!-- footer starts -->
     <footer class="footer">
@@ -313,11 +363,25 @@
                   <li>
                     <div class="line"></div>
                   </li>
-                  <li><a href="#advisory"class="footer-links">Advisory</a></li>
-                  <li><a href="#implementation"class="footer-links">Implementations</a></li>
-                  <li><a href="#customization"class="footer-links">Customization</a></li>
-                  <li><a href="#integration"class="footer-links">Integration</a></li>
-                  <li><a href="#automation"class="footer-links">Automation Testing</a></li>
+                  <li><a href="#advisory" class="footer-links">Advisory</a></li>
+                  <li>
+                    <a href="#implementation" class="footer-links"
+                      >Implementations</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#customization" class="footer-links"
+                      >Customization</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#integration" class="footer-links">Integration</a>
+                  </li>
+                  <li>
+                    <a href="#automation" class="footer-links"
+                      >Automation Testing</a
+                    >
+                  </li>
                 </ul>
               </div>
               <div class="col-md footer-col footer__link">
@@ -384,20 +448,24 @@
     });
 
     /** CLOSE MAIN NAVIGATION WHEN CLICKING OUTSIDE THE MAIN NAVIGATION AREA**/
-$(document).ready(function () {
-     $(document).click(function (event) {
-         var clickover = $(event.target);
-         var _opened = $(".navbar-collapse").hasClass("show");
-         if (_opened === true && !clickover.hasClass("navbar-toggler")) {
-             $(".navbar-toggler").click();
-         }
-     });
- });
+    $(document).ready(function() {
+      $(document).click(function(event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("show");
+        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+          $(".navbar-toggler").click();
+        }
+      });
+    });
 
- $('.dropdown').on('click', function(event){
-    // The event won't be propagated up to the document NODE and 
-    // therefore delegated events won't be fired
-    event.stopPropagation();
-});
+    $(".dropdown").on("click", function(event) {
+      // The event won't be propagated up to the document NODE and
+      // therefore delegated events won't be fired
+      event.stopPropagation();
+    });
+
+
+    
   </script>
+
 </html>

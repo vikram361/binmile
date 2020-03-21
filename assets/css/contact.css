@@ -136,6 +136,8 @@ header {
 }
 
 
+
+
 @keyframes floating{
   50% {
     transform: translateY(-5px);
@@ -145,6 +147,17 @@ header {
     transform: translateY(0);
   }
 }
+
+.google-map{
+  display: flex;
+  padding-bottom: 3rem;
+  display: none;
+}
+
+.google-map:target{
+  display: flex;
+}
+
 
 
 
@@ -276,6 +289,15 @@ header {
  }
  .contact-information p{
    text-align: center !important;
+ }
+ .google-map{
+   flex-direction: column;
+  
+ }
+
+ .binmile-india-map,
+ .binmile-usa-map{
+   max-width: 100vw;
  }
   
 }
