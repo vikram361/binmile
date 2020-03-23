@@ -210,6 +210,19 @@
     padding: 1rem;
     margin-right: 1rem;
   }
+
+  /* .crm-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-rows: repeat(3, 18rem);
+    grid-auto-rows: 18rem;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+
+  .crm-card-heading, .crm-card-para{
+    width: 90%;
+  } */
 }
 /*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {

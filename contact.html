@@ -29,7 +29,7 @@
     <header class="header fixed-top" id="navbar">
       <span class="top-logo">
         <a href="index.html">
-          <img src="./assets/images/binmile_logo.png" class="header__logo" />
+          <img src="./assets/images/final-Logo-LH.png" class="header__logo">
         </a>
       </span>
       <div class="nav navbar navbar-expand-lg ">
@@ -92,7 +92,7 @@
           <!-- .et_pb_text -->
           <div class=" contact-information">
             <p style="text-align: left;" class="para">
-              <span style="color: #000080;"
+              <span class="contact-sub-head" style="color: #000080;"
                 >Avail an hour of complimentary consultancy</span
               >
             </p>
@@ -139,7 +139,7 @@
               <span style="color: #000080; font-size: 1.3rem; font-weight: 600;"
                 >USA &nbsp; </span
               ><br />
-              <span style="color: #000080;"
+              <span class="address" style="color: #000080;"
                 ><i class="fas fa-map-marker-alt"></i> 16192 Coastal Highway,
                 Lewes, Delaware 19958, Country of Sussex &nbsp;
               </span>
@@ -148,7 +148,7 @@
               <span style="color: #000080; font-size: 1.3rem; font-weight: 600;"
                 >INDIA &nbsp; </span
               ><br />
-              <span style="color: #000080;"
+              <span class="address" style="color: #000080;"
                 ><i class="fas fa-map-marker-alt"></i>&nbsp; D-42, Sector-59
                 Ground and First Floor Noida, UP – 201301, India &nbsp;
               </span>
@@ -437,12 +437,10 @@
         if (scroll > 700) {
           $("#navbar").css("background", "#062772"),
             $("#navbar").css("height", "8vh"),
-            $("#navbar").css("opacity", ".9"),
             $(".dropdown").css("transform", "translateY(-2px)"),
             $(".navbar-toggler").css("top", "-.1rem");
         } else {
-          $("#navbar").css("background", "transparent"),
-            $("#navbar").css("opacity", "1");
+          $("#navbar").css("background", "transparent");
         }
       });
     });

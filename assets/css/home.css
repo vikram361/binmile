@@ -66,6 +66,10 @@ header {
   padding-bottom: .5rem;
   padding-left: 2rem;
 }
+
+/* .header__logo{
+  filter: contrast(150%) brightness(1);
+} */
 .owl-prev,
 .owl-next {
   border-radius: 50%;
