@@ -1207,5 +1207,10 @@ footer {
     margin: 1rem;
   }
 
+  .work-card p{
+    width: 70%;
+    text-align: center;
+  }
+
 }
 
