@@ -814,6 +814,12 @@ footer {
   }
 } */
 
+
+.work-card p{
+  width: 70%;
+  text-align: center;
+}
+
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
 @media (min-width: 1025px) and (max-width: 1280px) {
   .work-card {
