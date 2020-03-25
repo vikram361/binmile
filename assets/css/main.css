@@ -442,7 +442,14 @@ footer {
   }
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
 @media (min-width: 1025px) and (max-width: 1280px) {  
+  .article-section{
+    flex-wrap: nowrap !important;
+  }
 
+  .tab button {
+    font-size: 14px;
+    padding: 14px 5px;
+  }
   }
 /*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {  
@@ -457,6 +464,17 @@ footer {
       position: relative;
       align-items: flex-end !important;
       justify-content: space-around !important;
+    }
+
+    .blog-nav{
+      flex-direction: column !important;
+      height: unset;
+      align-items: flex-start !important;
+   
+    }
+
+    .blog_navigation{
+      width: 30% !important;
     }
     .top-search{
       position: absolute;
@@ -497,6 +515,27 @@ footer {
       font-size: 2rem !important;
     }
 
+    .tab button {
+      font-size: 14px;
+      padding: 14px 5px;
+    }
+
+    .bottom-nav{
+      height: unset !important;
+    }
+
+    .article-content{
+      min-width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .article-section{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 /*   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {  
@@ -552,6 +591,28 @@ footer {
   }
   .bottom-footer{
     font-size: 1rem;
+  }
+
+  .blog-nav{
+    flex-direction: column !important;
+    height: unset;
+    align-items: flex-start !important;
+ 
+  }
+
+  .blog_navigation{
+    width: 30% !important;
+  }
+  .bottom-nav{
+    height: unset !important;
+  }
+  .tab button {
+    font-size: 14px;
+    padding: 14px 5px;
+  }
+
+  .blog-top-nav{
+    padding: unset;
   }
 }
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
@@ -632,12 +693,9 @@ footer {
   .bottom-footer{
     font-size: 1rem;
   }
+ 
   .bottom-nav{
-    height: 6rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
+    height: unset !important;
   }
 
   .bottom-navbar{

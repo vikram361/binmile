@@ -171,6 +171,18 @@ header {
   .top-logo{
     max-width: 15rem;
   }
+
+  .contact__form{
+    background-size: 150%;
+  }
+
+  .contact__info{
+    transform: translateX(5rem);
+  }
+
+  .input, .input-msg{
+    width: 60%;
+  }
 }
 /*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {

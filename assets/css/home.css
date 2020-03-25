@@ -1012,6 +1012,11 @@ footer {
   #hero-slide-image-4{
     width: 35vw;
   }
+  footer{
+    /* background-color: #6dbffc; */
+    background-image: url(../images/hero_images/phn-footer-img.png);
+    background-size: 190%;
+    }
 }
 /*   ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px*/
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1226,6 +1231,8 @@ footer {
     width: 70%;
     text-align: center;
   }
-
+ .blog-top-logo{
+   height: 4em !important;
+ }
 }
 
