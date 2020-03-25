@@ -266,7 +266,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
 }
 
 .services-card img {
@@ -582,7 +582,7 @@ header {
 }
 
 .integration-img{
-  height: 8rem;
+  height: 10rem !important;
   margin: 1rem !important;
 }
 
@@ -823,7 +823,16 @@ footer {
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
 @media (min-width: 1025px) and (max-width: 1280px) {
   .work-card {
-    max-height: 15vh !important;
+    width: 22vw;
+    height: 22vh;
+  }
+
+  .top-logo{
+    min-width: 18vw;
+  }
+
+  .hero-slider-image > .image-float{
+    width: 20vh !important;
   }
 }
 /*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
@@ -949,7 +958,7 @@ footer {
   }
   .top-logo {
     max-width: 15rem;
-    height: 7rem;
+  
   }
   .owl-two .test-card {
     margin-left: 3.3rem !important;
