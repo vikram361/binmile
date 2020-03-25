@@ -248,9 +248,7 @@ main .navbar-nav, .scrollmenu {
   box-shadow: 3px 6px 20px #487ab033;
 }
 
-.top-footer > .container {
-  border-bottom: 1px solid #062772;
-}
+
 
 .bold {
   font-weight: bold;
@@ -732,6 +730,15 @@ footer {
 
   .article-row{
     padding: 1rem;
+  }
+
+  .tab button {
+
+    padding: 14px 5px;
+  }
+
+  main .navbar-nav, .scrollmenu{
+    border: none;
   }
 
 }
