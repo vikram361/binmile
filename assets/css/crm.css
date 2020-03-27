@@ -20,8 +20,9 @@
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
-  color: rgb(77, 76, 76);
+  color: #130f40;
   line-height: 1.7;
+
 
   
 }
@@ -29,6 +30,7 @@
 .crm__info-text {
   font-size: 1rem;
   font-weight: 600;
+  
 }
 
 .dynamic-crm {
@@ -182,7 +184,7 @@
 
 .crm__consultant {
   padding: 2rem;
-  width: 85%;
+  width: 80%;
   margin: 5rem auto;
   border: 2px solid #130f40;
   border-radius: 5px;
@@ -224,7 +226,7 @@
   border: none;
   outline: none;
   border: 2px solid #130f40;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   margin-right: 3rem;
   border-radius: 3px;
 }
@@ -235,12 +237,16 @@
     font-weight: 600;
 }
 
-@media (min-width: 1281px)  {
+@media (min-width: 1281px) and (max-width: 1300px)  {
 
   
 .crm-card-heading, .crm-card-para{
     width: 90%;
   } 
+
+  .crm__consultant{
+    width: 90%;
+  }
 }
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -330,6 +336,14 @@
   .crm-card-para{
     width: 95%;
     font-size: .9rem;
+  }
+
+  .consultant-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-input {
+    margin-bottom: 1rem;
   }
 }
 /*   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px*/
