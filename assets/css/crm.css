@@ -20,7 +20,8 @@
   padding: 2rem;
   margin: 0 auto;
   text-align: center;
-  color: #130f40;
+  color: rgb(77, 76, 76);
+  line-height: 1.7;
 
   
 }
@@ -34,13 +35,18 @@
   padding: 5rem 2rem 2rem 5rem;
 }
 
-.crm-heading {
+.crm-heading, .crm-heading span {
   font-size: 3rem;
   font-weight: 600;
   width: 85%;
   color: #130f40;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.crm-heading span{
+  font-size: 4rem;
+}
+
 
 .crm-heading-2{
   font-size: 2rem;
@@ -51,6 +57,7 @@
   font-weight: 600;
   color: #130f40;
   margin-top: 1.5rem;
+  line-height: 2;
 }
 
 .crm-user {
@@ -61,6 +68,19 @@
   font-size: 3rem;
   font-weight: 600;
   color: #130f40;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 2rem;
+
+}
+
+.crm-user-heading::before,
+.crm-user-heading::after{
+  content: "";
+  display: inline-block;
+  width: 4rem;
+  border: 1px solid #130f40;
+  transform: translateY(-1rem);
+ 
 }
 
 .crm-cards {
@@ -68,8 +88,9 @@
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-template-rows: repeat(3, 18rem);
   grid-auto-rows: 18rem;
-  gap: 1rem;
-  padding: 4rem 0;
+  gap: 1px;
+  padding: 0rem 0;
+  background-color: rgba(170, 170, 170, 0.342);
  
 }
 
@@ -86,6 +107,8 @@
   row-gap: .5rem;
   justify-items: center;
   transition: all .8s;
+
+  background-color: white;
 
 
   
@@ -112,13 +135,13 @@
  
 }
 
-.crm-card:hover {
+/* .crm-card:hover {
   box-shadow: 5px 5px .5rem #487ab033,
     -5px -5px .5rem #487ab033;
   border-radius: 10px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
-}
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
+} */
 
 .testimonial-heading {
   color: #130f40;
@@ -139,10 +162,13 @@
 .crm__support-content {
   color: white;
   width: 60%;
+  z-index: 5;
 }
 
 .crm__support-image{
   width: 60%;
+  z-index: 1;
+  overflow: hidden;
 }
 .support-img{
   width: 100%;
@@ -156,10 +182,11 @@
 
 .crm__consultant {
   padding: 2rem;
-  width: 80%;
-  margin: 8rem auto;
-  border: 1px solid #130f40;
+  width: 85%;
+  margin: 5rem auto;
+  border: 2px solid #130f40;
   border-radius: 5px;
+  box-shadow: 0 0 10px #0000004b;
 }
 
 .consultant-heading {
@@ -197,7 +224,7 @@
   border: none;
   outline: none;
   border: 2px solid #130f40;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   margin-right: 3rem;
   border-radius: 3px;
 }
@@ -208,7 +235,12 @@
     font-weight: 600;
 }
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px)  {
+
+  
+.crm-card-heading, .crm-card-para{
+    width: 90%;
+  } 
 }
 /*   ##Device = Laptops, Desktops  ##Screen = B/w 1025px to 1280px*/
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -222,18 +254,23 @@
     margin-right: 1rem;
   }
 
-  /* .crm-cards {
-    display: grid;
+   .crm-cards {
+   
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-template-rows: repeat(3, 18rem);
     grid-auto-rows: 18rem;
-    gap: 1rem;
-    padding: 2rem 0;
+   
   }
 
   .crm-card-heading, .crm-card-para{
     width: 90%;
-  } */
+  } 
+
+  .form-btn{
+    margin: 1rem auto;
+  }
+
+
 }
 /*   ##Device = Tablets, Ipads (portrait)  ##Screen = B/w 768px to 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -275,6 +312,24 @@
   }
   .form-btn {
     margin: 1rem auto;
+  }
+
+  .crm-cards {
+   
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-rows: repeat(3, 18rem);
+    grid-auto-rows: 18rem;
+   
+  }
+
+  .crm-card-heading {
+    width: 90%;
+    font-size: 1.2rem;
+  } 
+
+  .crm-card-para{
+    width: 95%;
+    font-size: .9rem;
   }
 }
 /*   ##Device = Tablets, Ipads (landscape)  ##Screen = B/w 768px to 1024px*/
@@ -462,4 +517,28 @@
     justify-content: center;
     align-items: center;
   }
+
+  .crm-cards{
+    background: none;
+  }
+
+  .crm-heading-2{
+    font-size: 1em;
+  }
+
+  .dynamic-crm-text{
+    font-size: .8rem;
+  }
+
+  .crm-user-heading::after,
+  .crm-user-heading::before{
+    transform: translateY(-.5rem);
+    width: 3rem;
+  }
+
+  .crm-heading span {
+    font-size: 2rem;
+  }
+
+  
 }
