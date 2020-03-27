@@ -21,6 +21,8 @@
   margin: 0 auto;
   text-align: center;
   color: #130f40;
+
+  
 }
 
 .crm__info-text {
@@ -37,6 +39,11 @@
   font-weight: 600;
   width: 85%;
   color: #130f40;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.crm-heading-2{
+  font-size: 2rem;
 }
 
 .dynamic-crm-text {
@@ -47,7 +54,7 @@
 }
 
 .crm-user {
-  padding: 5rem 2rem 2rem 5rem;
+  padding: 5rem 2rem 2rem 2rem;
 }
 
 .crm-user-heading {
