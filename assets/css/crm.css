@@ -91,6 +91,8 @@
   
 }
 
+
+
 .crm-card-heading {
   font-size: 1.5rem;
   font-weight: 600;
@@ -114,6 +116,8 @@
   box-shadow: 5px 5px .5rem #487ab033,
     -5px -5px .5rem #487ab033;
   border-radius: 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .testimonial-heading {
@@ -146,7 +150,7 @@
 
 .support-para {
   font-size: 0.9rem;
-  color: #777;
+  color: rgb(165, 165, 165);
   padding-top: 2rem;
 }
 

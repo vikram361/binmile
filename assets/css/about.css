@@ -23,6 +23,7 @@
 .header-para{
   padding-top: 2rem;
   font-weight: 600;
+  width: 45%;
 }
 
 
@@ -31,10 +32,11 @@
   display: flex;
   justify-content: space-between;
 
+
 }
 
 .content{
-  width: 40%;
+  width: 45%;
 }
 
 .heading-tertiary{
@@ -52,7 +54,7 @@
 }
 
 .content-img{
-  width: 3rem;
+  width: 3.5rem;
   height: 3rem;
 }
 
@@ -139,6 +141,13 @@
     transform: translateY(-2rem);
   }
 
+  .about-content{
+    padding: 4rem;
+  }
+
+  .content{
+    width: 40%;
+  }
 
   .header-para{
     transform: translateY(-2rem);
@@ -320,6 +329,10 @@
     font-size: .7rem;
     padding-top: 3rem;
     width: 60%;
+  }
+
+  .test{
+    transform: translateY(-1rem);
   }
 
 }
