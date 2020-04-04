@@ -333,6 +333,14 @@
     padding: 1rem;
   }
 
+  .hero-right{
+    right: 25%;
+  }
+
+  .jobs-card{
+    padding: 0;
+  }
+
   .for-counts {
     font-size: 5rem;
   }
@@ -378,6 +386,10 @@
 @media (min-width: 750px) and (max-width: 900px) {
   .for-counts {
     font-size: 5rem;
+  }
+
+  .hero-right{
+    right: 25%;
   }
 
   .life-stories {
@@ -461,6 +473,10 @@
 @media (min-width: 600px) and (max-width: 750px) {
   .for-counts {
     font-size: 5rem;
+  }
+
+  .hero-right{
+    right: 28%;
   }
 
   .life-stories-heading {
@@ -558,13 +574,17 @@
   }
 
   .card {
-    min-width: 40rem;
+    min-width: 38rem;
   }
 }
 
 @media (min-width: 485px) and (max-width: 600px) {
   .for-counts {
     font-size: 4rem;
+  }
+
+  .hero-right{
+    right: 28%;
   }
 
   .life-stories-heading {
@@ -920,7 +940,7 @@
   }
 
   .card {
-    min-width: 28rem;
+    min-width: 27rem;
   }
 
   .life-stories {
@@ -1162,7 +1182,7 @@
   }
 
   .card {
-    min-width: 25rem;
+    min-width: 24rem;
   }
 
   .life-stories {
@@ -1417,7 +1437,7 @@
   }
 
   .card {
-    min-width: 21rem;
+    min-width: 20rem;
   }
 
   .life-stories {
