@@ -11,6 +11,19 @@
 .hero-right {
   top: 10%;
   height: 70vh;
+  right: 3rem;
+  animation: floating 4s infinite ease-in-out;
+}
+
+@keyframes floating{
+  50%{
+    transform: translate(3rem, -3rem);
+  }
+
+  100%{
+    transform: translate(0, 0);
+  }
+
 }
 
 .hero-h3 {
